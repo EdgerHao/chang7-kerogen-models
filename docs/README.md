@@ -16,3 +16,6 @@ to inspect the local connectivity.
 
 Serve this directory directly or configure GitHub Pages to publish main:/docs.
 Model/figure data: CC BY 4.0. Original website code: MIT. 3Dmol.js: BSD and included notices.
+
+The public site defaults to English. The header language buttons switch between English
+and Chinese, preserve the current model/view, and remember the preference across pages.

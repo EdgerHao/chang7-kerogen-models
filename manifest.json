@@ -2,12 +2,12 @@
   "dataset_version": "0.1.0",
   "sha256": {
     ".gitignore": "f1bb8745e827993437963d477a5ee256ca6a098946da514125ce8c0373fc0b51",
-    "CHANGELOG.md": "188c7fe2db4cd15966cab0fd18a3f11cadcf246277baf3bf80874035a4aae325",
+    "CHANGELOG.md": "6ea4922e459093e9165c898e0e5769575d863c9c5991a36ac6cf4736056aaa6a",
     "CITATION.cff": "a7854d018c9ef8fd19300efb661f5c4d2a50dfabe2ca4f331ca3f741b3b10db6",
     "DATA-LICENSE.md": "80477141e878ca5d75b40b7fd9d2a06ddd9380b1486c0b6f77b563499e99b4ef",
     "LICENSE": "c1ed7d51ed818bc51d9b6150841b6b24e6361ff1cc4b9ea16722ea36dfde2d5e",
     "LICENSES/CC-BY-4.0.txt": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
-    "README.md": "6966b800dbcbe19cdf4801bd4ac77f9796db1b330faf3a63742d7777fdb50c3a",
+    "README.md": "c548ff09455fb5f665da7df30097edfded4e4199e87185e35ff9aa94fe4c4256",
     "examples/load_and_analyze.py": "1254885db55320a91af0d94f53ee631cc2102d735a9c9a81a437c7aff2e20884",
     "models/SMILES.tsv": "7d594ca55f88ac2f21723b02fb946846a91a42545bd726d9904c63cddcf0d2ae",
     "models/Y21-1/metadata.json": "e4a8db1c45611e408472c824ea6e79653c28249c5b3e01e9bd5bed85a52a7a92",
@@ -56,7 +56,7 @@
     "docs/.nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "docs/DATA-LICENSE.md": "80477141e878ca5d75b40b7fd9d2a06ddd9380b1486c0b6f77b563499e99b4ef",
     "docs/LICENSE": "c1ed7d51ed818bc51d9b6150841b6b24e6361ff1cc4b9ea16722ea36dfde2d5e",
-    "docs/README.md": "704527375f319002f3cc9c06484b6c3886e562b196abacfaa595cd7c03bd441e",
+    "docs/README.md": "239e323e252bfd606d9f93e72037af5cb0c28e8bdbd3ce3c79ae33f2def8f8c6",
     "docs/assets/five-models-ballstick.pdf": "7869734ee5c38cd3502d5d1a4b21759c7f321556e29c1bc68eadb3be32ae3fe6",
     "docs/assets/five-models-ballstick.png": "ec57b62038e40fe0453a344c61bc5c1882d6d2a99f25e35c9869867c6b591a2c",
     "docs/assets/five-models-ballstick.svg": "2cd2ba260d2b306c5687a4e3a9207631d723ede6ecc91dc9a9c76df7298c2bfa",
@@ -69,8 +69,8 @@
     "docs/atlas/Y21-3-connection-atlas.pdf": "c19b1c614056196c8107a31c8ccd1add05fc5ca566b67aaca8bf6e54dc11ad01",
     "docs/atlas/Y21-4-connection-atlas.pdf": "3d122cb75a632b6580c9559f31424d57237069fd276020c4d745bdfad108af9a",
     "docs/atlas/Y21-5-connection-atlas.pdf": "82f0f1b34e494930329d53f0c0cbfb7d2ab27c119745b53a8e23922b4d1b9a24",
-    "docs/gallery.html": "7650a0bf7e04447c9a1ff1f59d1a7bc5255c0464db56dbfe55a698f2380804f4",
-    "docs/index.html": "85afb44f22db67bc125c9bacf5904e1bc2f1ef8fbc35c0a4b1bcbde2c8782554",
+    "docs/gallery.html": "04968e5f091f784e1f890e34a9644de28e48244c0b60f5ac6bfef8c0224a70e5",
+    "docs/index.html": "e17acd3e7991194496f407935903d1a7c0791be76cd0a861ef18df192b8f90bf",
     "docs/models/Y21-1/metadata.json": "e4a8db1c45611e408472c824ea6e79653c28249c5b3e01e9bd5bed85a52a7a92",
     "docs/models/Y21-1/model.sdf": "4325d0cd9bba71adfb9a822eb6cf03e7a0b3db4e07bb3aba794aaffaae40c9ba",
     "docs/models/Y21-1/model.smi": "f0bb20fcb79510a772523ed164984b6850bb4c21acde951f543d9581da5991ba",
@@ -114,7 +114,14 @@
     "docs/structures/Y21-5.svg": "96bb61c8d21c9db899e7dbf7f8a1bd66bba0aaafe9c36c96551d98f3fa586721",
     "docs/vendor/3Dmol-min.js": "4ab374e1830bccec950b280fd285a430e05e91bd13c9ef0097c611c66de6cb36",
     "docs/vendor/3Dmol-min.js.LICENSE.txt": "ae3bfc688d0c9687b76e0ecc7fece0b393bcb4acf2aee09e19dda697eaa10b16",
-    "docs/vendor/LICENSE-3Dmol.txt": "4c6eaaed856f3f28a3b1a98e74f4a8a71618de7d51ea4155c29f6f793bcef861"
+    "docs/vendor/LICENSE-3Dmol.txt": "4c6eaaed856f3f28a3b1a98e74f4a8a71618de7d51ea4155c29f6f793bcef861",
+    "docs/viewer.js": "853b4db74b052c249f84a936fe02ff85f6a6b8cc54949eb72136b7460f406274",
+    "docs/i18n.js": "4e078cc53b6f4e6a2a3dc51ad5f982bad3fe6695178cd7f26581e1949a010ba8"
   },
-  "website_revision": "2026-11-09"
+  "website_revision": "2026-11-09",
+  "website_default_language": "en",
+  "website_languages": [
+    "en",
+    "zh"
+  ]
 }

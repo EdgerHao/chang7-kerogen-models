@@ -13,7 +13,9 @@ Aromatic Enrichment in Chang 7 Kerogen during Hydrous Semi-Open Pyrolysis*
 
 Open the [five-model interactive explorer](https://edgerhao.github.io/chang7-kerogen-models/)
 or the [ChimeraX figures and 2-D structure gallery](https://edgerhao.github.io/chang7-kerogen-models/gallery.html).
-No installation is required. Rotate/zoom the candidates, inspect original SDF atom IDs,
+The site defaults to English, with an English / 中文 language switch that remembers
+the reader's choice across the explorer and gallery. No installation is required.
+Rotate/zoom the candidates, inspect original SDF atom IDs,
 switch ball-and-stick / skeleton / geometric-surface views, and download the source SDF.
 
 The website uses the unchanged v0.1.0 molecular data. Display transformations,

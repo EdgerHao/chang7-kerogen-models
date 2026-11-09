@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Chang 7 · Kerogen Model Explorer</title>
+<title data-i18n="viewer.title">Chang 7 · Kerogen Model Explorer</title>
 <style>
 :root{--ink:#172b3a;--muted:#637584;--line:#dce5eb;--paper:#f3f6f8;--accent:#1b6678}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
@@ -23,154 +23,25 @@ details{margin-top:17px;border:1px solid var(--line);background:white;border-rad
 footer{max-width:1600px;margin:auto;padding:0 25px 25px;color:var(--muted);font-size:11px}.error{color:#a73030}
 @media(max-width:1050px){main{grid-template-columns:210px minmax(0,1fr);padding:15px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.molecule{height:320px}.summarycard{min-height:360px}.structuregrid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){header{padding:20px}.topline{display:block}.badge{display:inline-block;margin-top:8px}main{display:block}aside{margin-bottom:18px}.grid{grid-template-columns:1fr}.summarycard{min-height:200px}.molecule{height:390px}.solo .molecule{height:430px}.bar{align-items:flex-start;flex-direction:column}.structuregrid{grid-template-columns:1fr}.group{margin-bottom:15px}}
+.header-tools{display:flex;align-items:center;gap:16px;flex-wrap:wrap}.language-switch{display:flex;gap:5px}.language-switch button{font-size:12px;padding:6px 10px}.language-switch button[aria-pressed="true"]{background:#1b6678;color:white;border-color:#1b6678}.segment button{overflow-wrap:anywhere}@media(max-width:700px){.header-tools{margin-top:12px}}
 </style>
 <script src="vendor/3Dmol-min.js"></script>
 <script src="models-data.js"></script>
-</head>
-<body>
-<header><div class="topline"><div><div class="eyebrow">OPEN MOLECULAR STRUCTURES · CHANG 7</div><h1>Kerogen Model Explorer</h1><p>五个候选分子模型 · 查看连接、空间构象与异原子分布</p></div><span class="badge">Release v0.1.0 · visualization preview</span></div></header>
-<main>
-<aside aria-label="显示设置">
-<div class="group"><label class="label" for="model">Models / 模型</label><select id="model"><option value="all">五个模型并排比较</option><option value="Y21-1">Y21-1 · Easy Rₒ 0.7%</option><option value="Y21-2">Y21-2 · Easy Rₒ 0.9%</option><option value="Y21-3">Y21-3 · Easy Rₒ 1.1%</option><option value="Y21-4">Y21-4 · Easy Rₒ 1.3%</option><option value="Y21-5">Y21-5 · Easy Rₒ 1.6%</option></select></div>
-<div class="group"><span class="label">Representation / 表示</span><div class="segment" id="styles"><button data-style="ball" class="active">球棍</button><button data-style="stick">骨架</button><button data-style="surface">表面</button></div></div>
-<div class="group"><label class="label" for="hydrogens">Hydrogens / 氢原子</label><select id="hydrogens"><option value="polar">保留 N/O/S 上的氢</option><option value="none">隐藏全部氢</option><option value="all">显示全部氢</option></select></div>
-<div class="group"><label class="label" for="coloring">Color / 颜色</label><select id="coloring"><option value="element">按元素着色</option><option value="carbon">芳香 / 非芳香碳</option></select><p class="note" id="color-note">深灰 C · 浅灰 H · 红 O · 蓝 N · 金 S</p></div>
-<div class="group"><span class="label">View / 操作</span><div class="buttons"><button id="reset">重置视角</button><button id="spin">旋转</button><button id="export">保存 PNG</button></div><p class="note">拖动旋转；滚轮缩放。点击原子查看与 SDF 一致的编号。</p></div>
-<div class="group"><span class="label">Figures / 图件</span><p><a href="gallery.html">ChimeraX 图件与二维图册 →</a></p></div>
-<div class="group"><span class="label">Files / 文件</span><div class="buttons"><a href="https://github.com/EdgerHao/chang7-kerogen-models" target="_blank" rel="noreferrer">GitHub 仓库 ↗</a></div><p class="note">模型来自公开版本 v0.1.0；下载文件保留完整原子、连接和源坐标。</p></div>
-</aside>
-<section class="workspace">
-<div class="bar"><h2 id="heading">五个模型 · 相同空间尺度</h2><div class="legend" id="legend"></div></div>
-<div class="grid" id="grid"></div>
-<div class="status" id="status" role="status">正在加载模型…</div>
-<details><summary>二维化学结构 · 点击打开矢量图</summary><div class="structuregrid" id="structures"></div></details>
-</section>
-</main>
-<footer>These are nonunique candidate graphs and illustrative conformers. Molecular surfaces describe these coordinate snapshots, not measured pores or wettability. Assigned Easy Rₒ values are endpoint labels. Data: CC BY 4.0 · Code: MIT · Renderer: 3Dmol.js (BSD).</footer>
-<script>
-"use strict";
-const palette={C:"#515a65",H:"#e0e4e9",O:"#de4c45",N:"#356fc4",S:"#d5a529"};
-let instances=[],representation="ball",isSpinning=false,generation=0;
-const data=window.KEROGEN_MODELS||[];
-const el=id=>document.getElementById(id);
-function formulaHTML(s){return s.replace(/(\d+)/g,"<sub>$1</sub>")}
-function elementStyle(ball=true){let out={};for(const [e,c] of Object.entries(palette)){out[e]=c}return out}
-function visibleIds(rec){
- const h=el("hydrogens").value;
- return rec.topology.atoms.filter(a=>a.element!=="H"||h==="all"||(h==="polar"&&rec.polarHydrogens.includes(a.atom_id-1))).map(a=>a.atom_id-1)
-}
-function poseSdf(rec){
- const rows=rec.sdf.split("\n");
- // V2000 preserves original atom order and all explicit bonds.
- const n=rec.topology.atoms.length;
- if(!rows[3].includes("V2000"))return rec.sdf;
- for(let i=0;i<n;i++){
-  const a=rec.topology.atoms[i],p=[a.x_angstrom-rec.center[0],a.y_angstrom-rec.center[1],a.z_angstrom-rec.center[2]];
-  const q=rec.rotation.map(r=>r.reduce((s,v,j)=>s+v*p[j],0));
-  rows[4+i]=q.map(v=>v.toFixed(4).padStart(10)).join("")+rows[4+i].slice(30);
- }
- return rows.join("\n")
-}
-function setStatus(text){el("status").textContent=text}
-function updateLegend(){
- const carbon=el("coloring").value==="carbon";
- const items=carbon?[["芳香碳","#274e70"],["非芳香碳","#d28a3e"],["O",palette.O],["N",palette.N],["S",palette.S]]:Object.entries(palette);
- el("legend").innerHTML=items.map(([k,c])=>'<span><i class="dot" style="background:'+c+'"></i>'+k+'</span>').join("");
- el("color-note").textContent=carbon?"碳分类来自候选化学图；非芳香碳也包括羰基碳。":"深灰 C · 浅灰 H · 红 O · 蓝 N · 金 S";
-}
-async function styleView(entry,token){
- const {v,m,rec}=entry,ids=visibleIds(rec);
- v.removeAllSurfaces();m.setStyle({},{});
- const base={stick:{radius:representation==="stick"?.13:.115,colorscheme:elementStyle()}};
- if(representation==="ball")base.sphere={scale:.22,colorscheme:elementStyle()};
- if(representation==="surface"){base.stick.radius=.08}
- m.setStyle({index:ids},base);
- if(el("coloring").value==="carbon"){
-  for(const [indices,color]of [[rec.aromaticCarbon,"#274e70"],[rec.aliphaticCarbon,"#d28a3e"]]){
-   const s={stick:{radius:base.stick.radius,color}};
-   if(representation==="ball")s.sphere={scale:.22,color};
-   m.setStyle({index:indices},s)
-  }
- }
- if(representation==="ball"){
-  for(const elem of ["O","N","S"])m.setStyle({elem},{stick:{radius:.115,color:palette[elem]},sphere:{scale:.29,color:palette[elem]}})
- }
- if(representation==="surface"){
-  await v.addSurface($3Dmol.SurfaceType.VDW,{opacity:.33,color:"#b8c7cf"},{index:ids});
-  if(token!==generation)return
- }
- v.render()
-}
-function setScale(entry,all){
- const {v}=entry;v.zoomTo({});v.setProjection("orthographic");
- if(all){
-  // fit one common model extent to every equal-sized comparison viewport
-  const aspect=v.getCanvas().clientWidth/v.getCanvas().clientHeight;
-  const commonView=v.getView();commonView[3]=150-50*Math.max(1,aspect/1.12);v.setView(commonView)
- }else v.zoom(1.25);
- v.render();entry.initialView=v.getView()
-}
-async function rebuild(){
- const token=++generation;
- for(const e of instances){
-  e.v.spin(false);e.v.clear();
-  const canvas=e.v.getCanvas();
-  const gl=canvas.getContext("webgl2")||canvas.getContext("webgl");
-  if(gl){const ext=gl.getExtension("WEBGL_lose_context");if(ext)ext.loseContext()}
- }
- instances=[];isSpinning=false;el("spin").textContent="旋转";
- const selected=el("model").value,all=selected==="all";
- const list=all?data:data.filter(r=>r.id===selected);
- el("grid").classList.toggle("solo",!all);
- el("heading").textContent=all?"五个模型 · 相同空间尺度":selected+" · 候选构象";
- el("grid").innerHTML=list.map(r=>'<article class="card"><div class="cardhead"><span class="name">'+r.id+'</span><span class="endpoint">Easy Rₒ '+r.metadata.assigned_Easy_Ro_percent.toFixed(1)+'%</span></div><div class="formula">'+formulaHTML(r.metadata.formula)+'</div><div class="molecule" id="view-'+r.id+'" aria-label="'+r.id+' 三维模型"></div><div class="cardfoot"><span>'+r.metadata.heavy_atoms+' heavy atoms</span><a download href="models/'+r.id+'/model.sdf">SDF ↓</a></div></article>').join("");
- if(all)el("grid").insertAdjacentHTML("beforeend",'<article class="card summarycard"><span class="label">Read the structures</span><h3>相同化学连接<br>更清楚的展示</h3><div class="rule"></div><p>五个端点独立构建。<br>各图按刚体旋转取景，未改变内部几何。<br>显示面积不能代替密度或成熟度判断。</p><p>默认只保留极性氢；完整氢原子仍在下载文件中。</p></article>');
- if(!window.$3Dmol){setStatus("3Dmol.js 未加载。请检查 vendor 文件。");return}
- setStatus("正在绘制 "+list.length+" 个模型…");updateLegend();
- for(const rec of list){
-  const v=$3Dmol.createViewer(el("view-"+rec.id),{backgroundColor:"#ffffff",antialias:true});
-  const m=v.addModel(poseSdf(rec),"sdf",{keepH:true});
-  const e={v,m,rec};instances.push(e);
-  v.setViewStyle({style:"outline",color:"#33414b",width:.012});
-  v.setClickable({},true,function(atom){
-   v.removeAllLabels();v.addLabel(rec.id+" · "+atom.elem+" "+(atom.index+1),{position:atom,backgroundColor:"#172b3a",fontColor:"white",fontSize:12,borderRadius:3});
-   v.render();
-   const source=rec.topology.atoms[atom.index];
-   el("status").innerHTML="<strong>"+rec.id+" · "+atom.elem+" · atom "+(atom.index+1)+"</strong>　SDF 原始坐标 / Å："+
-     [source.x_angstrom,source.y_angstrom,source.z_angstrom].map(x=>x.toFixed(4)).join(" , ")+
-     (source.aromatic?"　· aromatic":"")
-  });
-  await styleView(e,token);if(token!==generation)return;setScale(e,all);
- }
- setStatus("已加载 "+list.length+" 个模型。拖动旋转，点击原子查看编号；下载文件保留完整坐标与连接。");
- window.KEROGEN_READY=true;
-}
-el("model").addEventListener("change",rebuild);
-for(const id of ["hydrogens","coloring"])el(id).addEventListener("change",async()=>{
- const t=++generation;updateLegend();setStatus("正在更新显示…");
- await Promise.all(instances.map(e=>styleView(e,t)));setStatus("显示已更新；模型连接与源坐标未改变。")
-});
-for(const btn of el("styles").querySelectorAll("button"))btn.addEventListener("click",async()=>{
- representation=btn.dataset.style;for(const b of el("styles").querySelectorAll("button"))b.classList.toggle("active",b===btn);
- const t=++generation;setStatus(representation==="surface"?"正在计算候选构象的几何表面…":"正在更新显示…");
- await Promise.all(instances.map(e=>styleView(e,t)));if(t===generation)setStatus("显示已更新。表面仅表示当前候选构象的几何包络。")
-});
-el("reset").addEventListener("click",()=>{for(const e of instances){e.v.removeAllLabels();e.v.setView(e.initialView);e.v.render()}setStatus("已恢复初始视角。")});
-el("spin").addEventListener("click",()=>{isSpinning=!isSpinning;for(const e of instances)e.v.spin(isSpinning?"y":false,.5);el("spin").textContent=isSpinning?"停止旋转":"旋转"});
-el("export").addEventListener("click",async()=>{
- const cols=instances.length>1?3:1,cellW=900,cellH=830,rows=Math.ceil(instances.length/cols);
- const canvas=document.createElement("canvas");canvas.width=cols*cellW;canvas.height=rows*cellH;
- const c=canvas.getContext("2d");c.fillStyle="white";c.fillRect(0,0,canvas.width,canvas.height);
- for(let i=0;i<instances.length;i++){
-  const e=instances[i],im=new Image();im.src=e.v.pngURI();await im.decode();
-  const x=(i%cols)*cellW,y=Math.floor(i/cols)*cellH;
-  c.fillStyle="#172b3a";c.font="28px sans-serif";c.fillText(e.rec.id+"   Easy Ro "+e.rec.metadata.assigned_Easy_Ro_percent.toFixed(1)+"%",x+25,y+42);
-  c.drawImage(im,x,y+70,cellW,cellH-95)
- }
- const a=document.createElement("a");a.href=canvas.toDataURL("image/png");a.download="chang7-models-view.png";a.click()
-});
-el("structures").innerHTML=data.map(r=>'<div><a href="structures/'+r.id+'.svg" target="_blank"><img loading="lazy" alt="'+r.id+' 二维结构" src="structures/'+r.id+'.svg">'+r.id+' · 完整 SVG ↗</a><br><a href="atlas/'+r.id+'-connection-atlas.pdf" target="_blank">连接编号图册 PDF ↗</a></div>').join("");
-window.addEventListener("resize",()=>{for(const e of instances)e.v.resize()});
-rebuild().catch(e=>{setStatus("绘制失败："+e.message);console.error(e)});
-</script>
-</body></html>
+<script src="i18n.js"></script>
+
+</head><body>
+<header><div class="topline"><div><div class="eyebrow" data-i18n="viewer.eyebrow">OPEN MOLECULAR STRUCTURES · CHANG 7</div><h1 data-i18n="viewer.heading">Kerogen Model Explorer</h1><p data-i18n="viewer.intro">Five candidate molecular models · explore connectivity, conformations and heteroatoms</p></div><div class="header-tools"><span class="badge" data-i18n="viewer.badge">Release v0.1.0 · visualization preview</span><div class="language-switch" role="group" aria-label="Language"><button type="button" data-language="en" aria-pressed="true">English</button><button type="button" data-language="zh" aria-pressed="false">中文</button></div></div></div></header>
+<main><aside data-i18n-aria="viewer.controls" aria-label="Display settings">
+<div class="group"><label class="label" for="model" data-i18n="viewer.models">Models</label><select id="model"><option value="all" data-i18n="viewer.compare">Compare all five models</option><option value="Y21-1">Y21-1 · Easy Rₒ 0.7%</option><option value="Y21-2">Y21-2 · Easy Rₒ 0.9%</option><option value="Y21-3">Y21-3 · Easy Rₒ 1.1%</option><option value="Y21-4">Y21-4 · Easy Rₒ 1.3%</option><option value="Y21-5">Y21-5 · Easy Rₒ 1.6%</option></select></div>
+<div class="group"><span class="label" data-i18n="viewer.representation">Representation</span><div class="segment" id="styles"><button data-style="ball" data-i18n="viewer.ball" class="active">Ball &amp; stick</button><button data-style="stick" data-i18n="viewer.stick">Skeleton</button><button data-style="surface" data-i18n="viewer.surface">Surface</button></div></div>
+<div class="group"><label class="label" for="hydrogens" data-i18n="viewer.hydrogens">Hydrogens</label><select id="hydrogens"><option value="polar" data-i18n="viewer.polar">Keep H on N/O/S</option><option value="none" data-i18n="viewer.none">Hide all H</option><option value="all" data-i18n="viewer.allH">Show all H</option></select></div>
+<div class="group"><label class="label" for="coloring" data-i18n="viewer.color">Color</label><select id="coloring"><option value="element" data-i18n="viewer.element">By element</option><option value="carbon" data-i18n="viewer.carbon">Aromatic / nonaromatic C</option></select><p class="note" id="color-note">C gray · H light gray · O red · N blue · S gold</p></div>
+<div class="group"><span class="label" data-i18n="viewer.view">View</span><div class="buttons"><button id="reset" data-i18n="viewer.reset">Reset view</button><button id="spin">Rotate</button><button id="export" data-i18n="viewer.export">Save PNG</button></div><p class="note" data-i18n="viewer.help">Drag to rotate; scroll to zoom. Click an atom to inspect its original SDF ID.</p></div>
+<div class="group"><span class="label" data-i18n="viewer.figures">Figures</span><p><a href="gallery.html" data-i18n="viewer.gallery">ChimeraX figures &amp; 2-D atlases →</a></p></div>
+<div class="group"><span class="label" data-i18n="viewer.files">Files</span><div class="buttons"><a href="https://github.com/EdgerHao/chang7-kerogen-models" target="_blank" rel="noreferrer" data-i18n="viewer.repository">GitHub repository ↗</a></div><p class="note" data-i18n="viewer.fileNote">Models are from public release v0.1.0. Downloads retain all atoms, bonds and source coordinates.</p></div>
+</aside><section class="workspace"><div class="bar"><h2 id="heading">Five models · same spatial scale</h2><div class="legend" id="legend"></div></div>
+<div class="grid" id="grid"></div><div class="status" id="status" role="status">Loading models…</div>
+<details><summary data-i18n="viewer.structures">2-D chemical structures · open vector drawings</summary><div class="structuregrid" id="structures"></div></details>
+</section></main>
+<footer data-i18n="viewer.footer">These are nonunique candidate graphs and illustrative conformers. Molecular surfaces describe these coordinate snapshots, not measured pores or wettability. Assigned Easy Rₒ values are endpoint labels. Data: CC BY 4.0 · Code: MIT · Renderer: 3Dmol.js (BSD).</footer>
+<script src="viewer.js"></script></body></html>

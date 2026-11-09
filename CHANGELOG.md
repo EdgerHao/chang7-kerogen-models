@@ -3,6 +3,7 @@
 ## Website update (2026-11-09)
 
 - Added a GitHub Pages explorer for all five unchanged v0.1.0 candidates.
+- English-first bilingual explorer/gallery with persistent English / 中文 switching.
 - Added ChimeraX ball-and-stick/skeleton plates, 2-D structures and connection-indexed atlases.
 - Molecular graphs, original coordinates, release tags and simulation-readiness status are unchanged.
 
