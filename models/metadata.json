@@ -1,0 +1,197 @@
+[
+  {
+    "model_id": "Y21-1",
+    "formula": "C180H157N7O15S",
+    "assigned_Easy_Ro_percent": 0.7,
+    "canonical_smiles": "CCCc1ccc2cc3c(cc2c1)-c1[nH]c2cc1-c1c(CCC)ccc4c(C=O)c(ccc14)-c1cc(c(CCC)[nH]1)-c1cccc(c1)-c1cc4ccccc4c(-c4ccc(Oc5cccc(N)c5)c(CCC)c4C(=O)O)c1Cc1cc4cc(n1)Cc1[nH]c(cc1O)-c1cc(c5c(CCC)c(CCC)c(cc5c1O)Cc1cc(C(=O)O)cc5c1-c1cc(c(Cc6cccc(C(=O)O)c6Oc6ccccc6)[nH]1)Oc1cc6c7ccc(c6c(c1-c1cc6cc(CCC)ccc6c(CCC)c1C(=O)O)Cc1cc[nH]c1C3)-c1cc(CCC)c3cc(c-7cc3c1CCC)Sc1cc(ccc1C5)O2)C4",
+    "elements_including_explicit_H": {
+      "C": 180,
+      "H": 157,
+      "N": 7,
+      "O": 15,
+      "S": 1
+    },
+    "atoms_including_H": 360,
+    "heavy_atoms": 203,
+    "bonds": 391,
+    "formal_charge": 0,
+    "molecular_weight_g_mol": 2690.336999999966,
+    "aromatic_carbon_count": 137,
+    "conformer": {
+      "method": "MMFF94 local minimization; three trials; same graph as canonical SMILES",
+      "selected_energy_kcal_mol": 3533.557665286039,
+      "seed": 20261110,
+      "numerical_minimizer_status": 0,
+      "coordinate_unit": "angstrom",
+      "periodic_cell": null,
+      "bond_length_min_angstrom": 0.9713533548611444,
+      "bond_length_max_angstrom": 2.107643871720267,
+      "CC_bonds_longer_than_1_8_angstrom": 9,
+      "equilibrated_for_MD": false,
+      "stereochemistry": "Unspecified; use topology as constitutional graph"
+    },
+    "files": {
+      "sdf": "models/Y21-1/model.sdf",
+      "mol": "models/Y21-1/model.mol",
+      "smi": "models/Y21-1/model.smi",
+      "xyz": "models/Y21-1/model.xyz",
+      "pdb": "models/Y21-1/model.pdb"
+    }
+  },
+  {
+    "model_id": "Y21-2",
+    "formula": "C181H143N7O16S2",
+    "assigned_Easy_Ro_percent": 0.9,
+    "canonical_smiles": "CCCc1ccc2c(c1)S(=O)(=O)c1c3c4c(c5cc(Cc6cc(O)ccc6CC)cc(C(=O)O)c15)-c1ccc5cc(c(-c6c[nH]cc6CC)cc5c1)-c1cc-4c(c4ccccc14)Cc1cc4ccc1Oc1c(c-2c(CCC)c2cccc(Cc5ccc6ccc(-c7cc(C=O)cc8c(Cc9c(C(=O)O)ccc%10ccccc9%10)c(Cc9cccc(S)c9)cc(OC)c78)c(C(=O)O)c6c5)c12)Cc1cc(c2cc(ccc2c1)Cc1ccc([nH]1)-c1cc-4c2cc(CC)ccc2c1CCC)-c1ccc(c(-c2ccccn2)c1)-c1cc(c[nH]1)Oc1c[nH]cc1Oc1cc(c(O)c(N)c1CC)Cc1c[nH]cc1O3",
+    "elements_including_explicit_H": {
+      "C": 181,
+      "H": 143,
+      "N": 7,
+      "O": 16,
+      "S": 2
+    },
+    "atoms_including_H": 349,
+    "heavy_atoms": 206,
+    "bonds": 382,
+    "formal_charge": 0,
+    "molecular_weight_g_mol": 2736.3019999999683,
+    "aromatic_carbon_count": 151,
+    "conformer": {
+      "method": "MMFF94 local minimization; three trials; same graph as canonical SMILES",
+      "selected_energy_kcal_mol": 5166.771726818453,
+      "seed": 20261111,
+      "numerical_minimizer_status": 0,
+      "coordinate_unit": "angstrom",
+      "periodic_cell": null,
+      "bond_length_min_angstrom": 0.9709614307478954,
+      "bond_length_max_angstrom": 2.177411463182832,
+      "CC_bonds_longer_than_1_8_angstrom": 14,
+      "equilibrated_for_MD": false,
+      "stereochemistry": "Unspecified; use topology as constitutional graph"
+    },
+    "files": {
+      "sdf": "models/Y21-2/model.sdf",
+      "mol": "models/Y21-2/model.mol",
+      "smi": "models/Y21-2/model.smi",
+      "xyz": "models/Y21-2/model.xyz",
+      "pdb": "models/Y21-2/model.pdb"
+    }
+  },
+  {
+    "model_id": "Y21-3",
+    "formula": "C181H133N7O21S2",
+    "assigned_Easy_Ro_percent": 1.1,
+    "canonical_smiles": "CCc1c(Cc2cc(Cc3ccccc3Cc3c(Cc4c[nH]cc4C(=O)O)sc(Oc4cc5ccccc5c(-c5ccccc5-c5cccc(-c6cc(-c7c(-c8ccc(C=O)c9ccccc89)c[nH]c7N)cc7ccccc67)c5)c4Oc4ccccc4)c3Cc3cccnc3Cc3cc(O)c4ccc(C(=O)O)cc4c3)c3c(Oc4c[nH]c(-c5c(Cc6ccccc6Oc6ccc(Cc7cccc(S(=O)(=O)c8ccc9c(C(=O)O)cc(Oc%10c(OC)cc%11cc(O)ccc%11c%10CC)cc9c8)c7Cc7ccccc7C(=O)O)c7cc(-c8[nH]ccc8O)ccc67)ccc6ccccc56)c4)cccc3c2)c[nH]c1C=O",
+    "elements_including_explicit_H": {
+      "C": 181,
+      "H": 133,
+      "N": 7,
+      "O": 21,
+      "S": 2
+    },
+    "atoms_including_H": 344,
+    "heavy_atoms": 211,
+    "bonds": 375,
+    "formal_charge": 0,
+    "molecular_weight_g_mol": 2806.21699999997,
+    "aromatic_carbon_count": 161,
+    "conformer": {
+      "method": "MMFF94 local minimization; three trials; same graph as canonical SMILES",
+      "selected_energy_kcal_mol": 678.5823158948867,
+      "seed": 20261112,
+      "numerical_minimizer_status": 0,
+      "coordinate_unit": "angstrom",
+      "periodic_cell": null,
+      "bond_length_min_angstrom": 0.9710661100048747,
+      "bond_length_max_angstrom": 1.801675364764696,
+      "CC_bonds_longer_than_1_8_angstrom": 0,
+      "equilibrated_for_MD": false,
+      "stereochemistry": "Unspecified; use topology as constitutional graph"
+    },
+    "files": {
+      "sdf": "models/Y21-3/model.sdf",
+      "mol": "models/Y21-3/model.mol",
+      "smi": "models/Y21-3/model.smi",
+      "xyz": "models/Y21-3/model.xyz",
+      "pdb": "models/Y21-3/model.pdb"
+    }
+  },
+  {
+    "model_id": "Y21-4",
+    "formula": "C180H108N8O17S2",
+    "assigned_Easy_Ro_percent": 1.3,
+    "canonical_smiles": "CCc1c2c3cc4ccc(cc14)-c1c(C(=O)O)c4c(c5ccccc15)-c1cc5ncc1Cc1ccc([nH]1)Oc1cccc(c1)-c1c6cc7c(C(=O)O)cc8cc7c1Cc1[nH]cc(c1C=O)Oc1ccccc1-c1ccccc1S(=O)(=O)c1cccc(c1)Cc1c7[nH]c9c1Cc1ccc%10c(c1)Cc1c[nH]c%11c1Cc1ccc%12cc1-c1cc%13c%14c(cc(c%13cc1Cc1scc(c1Cc1c(ccc(c1-%10)Cc1ccc-8c(c1-%12)C7)-c1c-2c(-c2cc(O)[nH]c2C(=O)O)cc2ccc(N)c(O)c12)-c1cc2ccccc2c-%14c1-c1cc(C=O)cc2c-4c4c7[nH]c(c(CC)c7-%11)c4cc12)O5)-c1cccc2cc-3c(c(c12)O9)O6",
+    "elements_including_explicit_H": {
+      "C": 180,
+      "H": 108,
+      "N": 8,
+      "O": 17,
+      "S": 2
+    },
+    "atoms_including_H": 315,
+    "heavy_atoms": 207,
+    "bonds": 359,
+    "formal_charge": 0,
+    "molecular_weight_g_mol": 2719.016999999975,
+    "aromatic_carbon_count": 161,
+    "conformer": {
+      "method": "MMFF94 local minimization; three trials; same graph as canonical SMILES",
+      "selected_energy_kcal_mol": 6951.456310186595,
+      "seed": 20261113,
+      "numerical_minimizer_status": 0,
+      "coordinate_unit": "angstrom",
+      "periodic_cell": null,
+      "bond_length_min_angstrom": 0.973887164922097,
+      "bond_length_max_angstrom": 2.1209525289359967,
+      "CC_bonds_longer_than_1_8_angstrom": 24,
+      "equilibrated_for_MD": false,
+      "stereochemistry": "Unspecified; use topology as constitutional graph"
+    },
+    "files": {
+      "sdf": "models/Y21-4/model.sdf",
+      "mol": "models/Y21-4/model.mol",
+      "smi": "models/Y21-4/model.smi",
+      "xyz": "models/Y21-4/model.xyz",
+      "pdb": "models/Y21-4/model.pdb"
+    }
+  },
+  {
+    "model_id": "Y21-5",
+    "formula": "C184H99N7O17S4",
+    "assigned_Easy_Ro_percent": 1.6,
+    "canonical_smiles": "Cc1cc2c(C=O)c3cc(ccc13)Cc1cccc(c1C=O)-c1cc3c4ccc5c3cc1-c1ccccc1Cc1c3c6nc7c1c1c8c9c%10c%11oc%12c6c(S)c6c%13cc-4c4c(c%14c%15ccc%16c%17c(c(cc%16%14)c%111)Oc1c[nH]c(c1-c1cc%11ccc1Oc1sc(c(c1O)Cc1c-%15cc%14c%15cccc%14c1-c1cc-3cc3c(cc(cc13)C6)-c1c(ccc3c(N)cccc13)O%15)-c1c[nH]c(c1)-c1cc3c(cccc3cc1-c1ccnc(c1)Cc1c(c[nH]c1-4)C%10)-c1cc(cc(S)c1Cc1cc(C(=O)O)c(c3ccc(cc13)-c1ccc-2c(c1)-c1cc(cc(C(=O)O)c1C(=O)O)Cc1[nH]c(cc1O)O%17)-c1c(cc-%11cc1-7)C5)C9)S8(=O)=O)c%13%12",
+    "elements_including_explicit_H": {
+      "C": 184,
+      "H": 99,
+      "N": 7,
+      "O": 17,
+      "S": 4
+    },
+    "atoms_including_H": 311,
+    "heavy_atoms": 212,
+    "bonds": 359,
+    "formal_charge": 0,
+    "molecular_weight_g_mol": 2808.1159999999754,
+    "aromatic_carbon_count": 168,
+    "conformer": {
+      "method": "MMFF94 local minimization; three trials; same graph as canonical SMILES",
+      "selected_energy_kcal_mol": 10149.174852868415,
+      "seed": 20261114,
+      "numerical_minimizer_status": 0,
+      "coordinate_unit": "angstrom",
+      "periodic_cell": null,
+      "bond_length_min_angstrom": 0.9701868840589425,
+      "bond_length_max_angstrom": 2.154578179133911,
+      "CC_bonds_longer_than_1_8_angstrom": 32,
+      "equilibrated_for_MD": false,
+      "stereochemistry": "Unspecified; use topology as constitutional graph"
+    },
+    "files": {
+      "sdf": "models/Y21-5/model.sdf",
+      "mol": "models/Y21-5/model.mol",
+      "smi": "models/Y21-5/model.smi",
+      "xyz": "models/Y21-5/model.xyz",
+      "pdb": "models/Y21-5/model.pdb"
+    }
+  }
+]

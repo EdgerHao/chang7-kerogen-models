@@ -1,0 +1,22 @@
+{
+  "Y21-1": {
+    "source_graph_sha256": "f0bb20fcb79510a772523ed164984b6850bb4c21acde951f543d9581da5991ba",
+    "source_illustrative_sdf_sha256": "31b7bf25a653d2e845fff421b04f49ae8f30ea2c0d89aebb0276c42eb1ab8f13"
+  },
+  "Y21-2": {
+    "source_graph_sha256": "a032f1e3ad5cfc39824f7c768ad8b99cd4149026ccf8541d9eb67fcd410aef7c",
+    "source_illustrative_sdf_sha256": "48f7094066ac25bcb42c16afe950798bdcddccfd0c06b646ef52d233f632abdd"
+  },
+  "Y21-3": {
+    "source_graph_sha256": "e9187d0b531e409111e56e15d66c3441f9f879628fef0c5b6bdd01ea7dbbdfd6",
+    "source_illustrative_sdf_sha256": "5f3b01b7f24871e45229d21ac6348306d585cb12934c48d7b931bcb5335c6747"
+  },
+  "Y21-4": {
+    "source_graph_sha256": "7fd093e5c8abc6a63ee2a74cdcf70a1c0e972b761873a74f3bf93b23fa37cb7f",
+    "source_illustrative_sdf_sha256": "bec8803209cf7f784c89db9011bf7f89f4571c1ac245836214300b8fe4f2d8ac"
+  },
+  "Y21-5": {
+    "source_graph_sha256": "fb29392554c6da07268e7f170420f1300d542c80d9acf3f3e914fdce79fdd982",
+    "source_illustrative_sdf_sha256": "fcb88e41479f83e34464d240a010c866b820bb79f6ebbf23af4393ad4dc0a4ea"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "rdkit": "2025.09.3",
+  "numpy": "2.5.4",
+  "dataset_version": "0.1.0",
+  "input_scope": "Five candidate graphs and their already audited illustrative conformers; no raw experimental records"
+}

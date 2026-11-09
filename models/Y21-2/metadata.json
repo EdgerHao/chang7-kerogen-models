@@ -1,0 +1,39 @@
+{
+  "model_id": "Y21-2",
+  "formula": "C181H143N7O16S2",
+  "assigned_Easy_Ro_percent": 0.9,
+  "canonical_smiles": "CCCc1ccc2c(c1)S(=O)(=O)c1c3c4c(c5cc(Cc6cc(O)ccc6CC)cc(C(=O)O)c15)-c1ccc5cc(c(-c6c[nH]cc6CC)cc5c1)-c1cc-4c(c4ccccc14)Cc1cc4ccc1Oc1c(c-2c(CCC)c2cccc(Cc5ccc6ccc(-c7cc(C=O)cc8c(Cc9c(C(=O)O)ccc%10ccccc9%10)c(Cc9cccc(S)c9)cc(OC)c78)c(C(=O)O)c6c5)c12)Cc1cc(c2cc(ccc2c1)Cc1ccc([nH]1)-c1cc-4c2cc(CC)ccc2c1CCC)-c1ccc(c(-c2ccccn2)c1)-c1cc(c[nH]1)Oc1c[nH]cc1Oc1cc(c(O)c(N)c1CC)Cc1c[nH]cc1O3",
+  "elements_including_explicit_H": {
+    "C": 181,
+    "H": 143,
+    "N": 7,
+    "O": 16,
+    "S": 2
+  },
+  "atoms_including_H": 349,
+  "heavy_atoms": 206,
+  "bonds": 382,
+  "formal_charge": 0,
+  "molecular_weight_g_mol": 2736.3019999999683,
+  "aromatic_carbon_count": 151,
+  "conformer": {
+    "method": "MMFF94 local minimization; three trials; same graph as canonical SMILES",
+    "selected_energy_kcal_mol": 5166.771726818453,
+    "seed": 20261111,
+    "numerical_minimizer_status": 0,
+    "coordinate_unit": "angstrom",
+    "periodic_cell": null,
+    "bond_length_min_angstrom": 0.9709614307478954,
+    "bond_length_max_angstrom": 2.177411463182832,
+    "CC_bonds_longer_than_1_8_angstrom": 14,
+    "equilibrated_for_MD": false,
+    "stereochemistry": "Unspecified; use topology as constitutional graph"
+  },
+  "files": {
+    "sdf": "models/Y21-2/model.sdf",
+    "mol": "models/Y21-2/model.mol",
+    "smi": "models/Y21-2/model.smi",
+    "xyz": "models/Y21-2/model.xyz",
+    "pdb": "models/Y21-2/model.pdb"
+  }
+}

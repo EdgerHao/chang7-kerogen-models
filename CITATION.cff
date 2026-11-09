@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+type: dataset
+message: "Please cite the exact release of this dataset when using these candidate structures. The associated manuscript is not yet assigned a publication DOI."
+title: "Chang 7 Kerogen Molecular Models"
+authors:
+  - family-names: Hao
+    given-names: Wanxin
+version: 0.1.0
+date-released: 2026-11-09
+url: "https://github.com/EdgerHao/chang7-kerogen-models"
+repository-code: "https://github.com/EdgerHao/chang7-kerogen-models"
+license: CC-BY-4.0
+keywords:
+  - kerogen
+  - Chang 7
+  - molecular models
+  - hydrous semi-open pyrolysis

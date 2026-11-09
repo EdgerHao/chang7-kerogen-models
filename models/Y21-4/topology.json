@@ -1,0 +1,5357 @@
+{
+  "model_id": "Y21-4",
+  "atom_order": "Same one-based order as SDF/MOL/PDB/XYZ",
+  "coordinate_unit": "angstrom",
+  "atoms": [
+    {
+      "atom_id": 1,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 4.3606,
+      "y_angstrom": 3.403,
+      "z_angstrom": -5.1049
+    },
+    {
+      "atom_id": 2,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.2144,
+      "y_angstrom": 3.8531,
+      "z_angstrom": -4.2052
+    },
+    {
+      "atom_id": 3,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.977,
+      "y_angstrom": 2.9268,
+      "z_angstrom": -2.9758
+    },
+    {
+      "atom_id": 4,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.7139,
+      "y_angstrom": 3.1247,
+      "z_angstrom": -2.2066
+    },
+    {
+      "atom_id": 5,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.3831,
+      "y_angstrom": 3.1818,
+      "z_angstrom": -0.986
+    },
+    {
+      "atom_id": 6,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.4494,
+      "y_angstrom": 4.1652,
+      "z_angstrom": -0.9008
+    },
+    {
+      "atom_id": 7,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.661,
+      "y_angstrom": 3.6544,
+      "z_angstrom": -1.3254
+    },
+    {
+      "atom_id": 8,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.7845,
+      "y_angstrom": 3.7503,
+      "z_angstrom": -0.4483
+    },
+    {
+      "atom_id": 9,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 6.3754,
+      "y_angstrom": 2.577,
+      "z_angstrom": 0.0819
+    },
+    {
+      "atom_id": 10,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.949,
+      "y_angstrom": 1.3345,
+      "z_angstrom": -0.3704
+    },
+    {
+      "atom_id": 11,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.2021,
+      "y_angstrom": 1.4135,
+      "z_angstrom": -1.6766
+    },
+    {
+      "atom_id": 12,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.4251,
+      "y_angstrom": 2.6346,
+      "z_angstrom": -2.2131
+    },
+    {
+      "atom_id": 13,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.9867,
+      "y_angstrom": 0.0269,
+      "z_angstrom": 0.6295
+    },
+    {
+      "atom_id": 14,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.6846,
+      "y_angstrom": -0.0717,
+      "z_angstrom": 2.0658
+    },
+    {
+      "atom_id": 15,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 6.9543,
+      "y_angstrom": -0.5511,
+      "z_angstrom": 2.7496
+    },
+    {
+      "atom_id": 16,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 7.1308,
+      "y_angstrom": -1.5545,
+      "z_angstrom": 3.4121
+    },
+    {
+      "atom_id": 17,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 7.9442,
+      "y_angstrom": 0.3489,
+      "z_angstrom": 2.5673
+    },
+    {
+      "atom_id": 18,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.3536,
+      "y_angstrom": -0.6655,
+      "z_angstrom": 2.9285
+    },
+    {
+      "atom_id": 19,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.2348,
+      "y_angstrom": -2.1114,
+      "z_angstrom": 2.1194
+    },
+    {
+      "atom_id": 20,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.9861,
+      "y_angstrom": -2.182,
+      "z_angstrom": 0.6883
+    },
+    {
+      "atom_id": 21,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.7707,
+      "y_angstrom": -3.1226,
+      "z_angstrom": -0.3146
+    },
+    {
+      "atom_id": 22,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.6503,
+      "y_angstrom": -3.3705,
+      "z_angstrom": -1.3936
+    },
+    {
+      "atom_id": 23,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 6.6832,
+      "y_angstrom": -2.5413,
+      "z_angstrom": -1.7209
+    },
+    {
+      "atom_id": 24,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 6.7432,
+      "y_angstrom": -1.3904,
+      "z_angstrom": -1.0069
+    },
+    {
+      "atom_id": 25,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.8941,
+      "y_angstrom": -1.2043,
+      "z_angstrom": 0.1005
+    },
+    {
+      "atom_id": 26,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.3848,
+      "y_angstrom": -3.6067,
+      "z_angstrom": 2.3653
+    },
+    {
+      "atom_id": 27,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.1859,
+      "y_angstrom": -3.7383,
+      "z_angstrom": 3.077
+    },
+    {
+      "atom_id": 28,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.0422,
+      "y_angstrom": -4.4588,
+      "z_angstrom": 2.6229
+    },
+    {
+      "atom_id": 29,
+      "element": "N",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.2154,
+      "y_angstrom": -5.5258,
+      "z_angstrom": 1.8606
+    },
+    {
+      "atom_id": 30,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.5075,
+      "y_angstrom": -5.7829,
+      "z_angstrom": 1.5799
+    },
+    {
+      "atom_id": 31,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.6118,
+      "y_angstrom": -4.8832,
+      "z_angstrom": 1.7487
+    },
+    {
+      "atom_id": 32,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 4.9581,
+      "y_angstrom": -5.5124,
+      "z_angstrom": 1.3824
+    },
+    {
+      "atom_id": 33,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.0368,
+      "y_angstrom": -6.262,
+      "z_angstrom": 0.0418
+    },
+    {
+      "atom_id": 34,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 6.0142,
+      "y_angstrom": -7.1234,
+      "z_angstrom": -0.4316
+    },
+    {
+      "atom_id": 35,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.7641,
+      "y_angstrom": -7.3615,
+      "z_angstrom": -1.8132
+    },
+    {
+      "atom_id": 36,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.6562,
+      "y_angstrom": -6.6229,
+      "z_angstrom": -2.169
+    },
+    {
+      "atom_id": 37,
+      "element": "N",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.1191,
+      "y_angstrom": -6.1435,
+      "z_angstrom": -0.9948
+    },
+    {
+      "atom_id": 38,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 4.0957,
+      "y_angstrom": -6.3652,
+      "z_angstrom": -3.3604
+    },
+    {
+      "atom_id": 39,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.2223,
+      "y_angstrom": -5.0886,
+      "z_angstrom": -3.8784
+    },
+    {
+      "atom_id": 40,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.2826,
+      "y_angstrom": -4.7982,
+      "z_angstrom": -4.7329
+    },
+    {
+      "atom_id": 41,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 5.4411,
+      "y_angstrom": -3.4965,
+      "z_angstrom": -5.223
+    },
+    {
+      "atom_id": 42,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.5349,
+      "y_angstrom": -2.4814,
+      "z_angstrom": -4.8784
+    },
+    {
+      "atom_id": 43,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.4368,
+      "y_angstrom": -2.7566,
+      "z_angstrom": -4.0569
+    },
+    {
+      "atom_id": 44,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.2955,
+      "y_angstrom": -4.0845,
+      "z_angstrom": -3.5651
+    },
+    {
+      "atom_id": 45,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.3833,
+      "y_angstrom": -1.7333,
+      "z_angstrom": -3.7523
+    },
+    {
+      "atom_id": 46,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.1658,
+      "y_angstrom": -1.4605,
+      "z_angstrom": -2.3717
+    },
+    {
+      "atom_id": 47,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.9393,
+      "y_angstrom": -2.0521,
+      "z_angstrom": -2.06
+    },
+    {
+      "atom_id": 48,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.2063,
+      "y_angstrom": -2.0493,
+      "z_angstrom": -2.9894
+    },
+    {
+      "atom_id": 49,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.4674,
+      "y_angstrom": -2.6539,
+      "z_angstrom": -2.8772
+    },
+    {
+      "atom_id": 50,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.5496,
+      "y_angstrom": -4.0483,
+      "z_angstrom": -2.4291
+    },
+    {
+      "atom_id": 51,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.4614,
+      "y_angstrom": -4.7753,
+      "z_angstrom": -2.7844
+    },
+    {
+      "atom_id": 52,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.5567,
+      "y_angstrom": -4.4519,
+      "z_angstrom": -1.6203
+    },
+    {
+      "atom_id": 53,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.6457,
+      "y_angstrom": -2.0889,
+      "z_angstrom": -3.4619
+    },
+    {
+      "atom_id": 54,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.5944,
+      "y_angstrom": -0.9349,
+      "z_angstrom": -4.2285
+    },
+    {
+      "atom_id": 55,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.3094,
+      "y_angstrom": -0.819,
+      "z_angstrom": -4.8046
+    },
+    {
+      "atom_id": 56,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.0855,
+      "y_angstrom": -1.4241,
+      "z_angstrom": -4.1975
+    },
+    {
+      "atom_id": 57,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.2302,
+      "y_angstrom": -1.6823,
+      "z_angstrom": -4.6893
+    },
+    {
+      "atom_id": 58,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 1.2247,
+      "y_angstrom": -2.3897,
+      "z_angstrom": -6.08
+    },
+    {
+      "atom_id": 59,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.8407,
+      "y_angstrom": -3.864,
+      "z_angstrom": -5.9791
+    },
+    {
+      "atom_id": 60,
+      "element": "N",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.7783,
+      "y_angstrom": -4.8628,
+      "z_angstrom": -6.1264
+    },
+    {
+      "atom_id": 61,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.267,
+      "y_angstrom": -6.0511,
+      "z_angstrom": -5.6613
+    },
+    {
+      "atom_id": 62,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.0073,
+      "y_angstrom": -5.8069,
+      "z_angstrom": -5.202
+    },
+    {
+      "atom_id": 63,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.3645,
+      "y_angstrom": -4.5339,
+      "z_angstrom": -5.7415
+    },
+    {
+      "atom_id": 64,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.7083,
+      "y_angstrom": -4.0273,
+      "z_angstrom": -5.9304
+    },
+    {
+      "atom_id": 65,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.9785,
+      "y_angstrom": -3.0836,
+      "z_angstrom": -6.6703
+    },
+    {
+      "atom_id": 66,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.8345,
+      "y_angstrom": -6.6547,
+      "z_angstrom": -4.5253
+    },
+    {
+      "atom_id": 67,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.4805,
+      "y_angstrom": -7.3555,
+      "z_angstrom": -3.372
+    },
+    {
+      "atom_id": 68,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.8522,
+      "y_angstrom": -7.5964,
+      "z_angstrom": -3.0025
+    },
+    {
+      "atom_id": 69,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.1858,
+      "y_angstrom": -8.3776,
+      "z_angstrom": -1.8926
+    },
+    {
+      "atom_id": 70,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.188,
+      "y_angstrom": -8.94,
+      "z_angstrom": -1.1189
+    },
+    {
+      "atom_id": 71,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.142,
+      "y_angstrom": -8.6938,
+      "z_angstrom": -1.4437
+    },
+    {
+      "atom_id": 72,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.5116,
+      "y_angstrom": -7.8679,
+      "z_angstrom": -2.5352
+    },
+    {
+      "atom_id": 73,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.9664,
+      "y_angstrom": -7.668,
+      "z_angstrom": -2.7459
+    },
+    {
+      "atom_id": 74,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.5133,
+      "y_angstrom": -8.219,
+      "z_angstrom": -3.9273
+    },
+    {
+      "atom_id": 75,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.8905,
+      "y_angstrom": -8.2884,
+      "z_angstrom": -4.1441
+    },
+    {
+      "atom_id": 76,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -5.767,
+      "y_angstrom": -7.8429,
+      "z_angstrom": -3.1651
+    },
+    {
+      "atom_id": 77,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -5.2658,
+      "y_angstrom": -7.2777,
+      "z_angstrom": -1.9941
+    },
+    {
+      "atom_id": 78,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.8793,
+      "y_angstrom": -7.1194,
+      "z_angstrom": -1.7984
+    },
+    {
+      "atom_id": 79,
+      "element": "S",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.4046,
+      "y_angstrom": -6.2528,
+      "z_angstrom": -0.2697
+    },
+    {
+      "atom_id": 80,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.9524,
+      "y_angstrom": -6.2392,
+      "z_angstrom": -0.1957
+    },
+    {
+      "atom_id": 81,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.1828,
+      "y_angstrom": -6.8593,
+      "z_angstrom": 0.7973
+    },
+    {
+      "atom_id": 82,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.8824,
+      "y_angstrom": -4.5087,
+      "z_angstrom": -0.3025
+    },
+    {
+      "atom_id": 83,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -5.0927,
+      "y_angstrom": -4.125,
+      "z_angstrom": -0.8546
+    },
+    {
+      "atom_id": 84,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -5.3048,
+      "y_angstrom": -2.7799,
+      "z_angstrom": -1.1045
+    },
+    {
+      "atom_id": 85,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.303,
+      "y_angstrom": -1.8296,
+      "z_angstrom": -0.8329
+    },
+    {
+      "atom_id": 86,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.0897,
+      "y_angstrom": -2.1313,
+      "z_angstrom": -0.2252
+    },
+    {
+      "atom_id": 87,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.9421,
+      "y_angstrom": -3.5169,
+      "z_angstrom": 0.086
+    },
+    {
+      "atom_id": 88,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.9501,
+      "y_angstrom": -1.2003,
+      "z_angstrom": 0.2403
+    },
+    {
+      "atom_id": 89,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.5524,
+      "y_angstrom": 0.291,
+      "z_angstrom": -0.1881
+    },
+    {
+      "atom_id": 90,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.2756,
+      "y_angstrom": 0.6111,
+      "z_angstrom": -1.4754
+    },
+    {
+      "atom_id": 91,
+      "element": "N",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.0597,
+      "y_angstrom": 0.5023,
+      "z_angstrom": -1.4479
+    },
+    {
+      "atom_id": 92,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.3237,
+      "y_angstrom": 0.2614,
+      "z_angstrom": -0.1176
+    },
+    {
+      "atom_id": 93,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.4455,
+      "y_angstrom": 1.2421,
+      "z_angstrom": 0.4489
+    },
+    {
+      "atom_id": 94,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.2768,
+      "y_angstrom": 2.9318,
+      "z_angstrom": 0.3585
+    },
+    {
+      "atom_id": 95,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.2238,
+      "y_angstrom": 4.6268,
+      "z_angstrom": 0.325
+    },
+    {
+      "atom_id": 96,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.3127,
+      "y_angstrom": 5.5501,
+      "z_angstrom": -0.6874
+    },
+    {
+      "atom_id": 97,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.5026,
+      "y_angstrom": 6.7258,
+      "z_angstrom": -0.6021
+    },
+    {
+      "atom_id": 98,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.385,
+      "y_angstrom": 6.8314,
+      "z_angstrom": 0.4528
+    },
+    {
+      "atom_id": 99,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.4177,
+      "y_angstrom": 6.6106,
+      "z_angstrom": 1.537
+    },
+    {
+      "atom_id": 100,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.5734,
+      "y_angstrom": 5.553,
+      "z_angstrom": 1.2799
+    },
+    {
+      "atom_id": 101,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.3529,
+      "y_angstrom": 7.251,
+      "z_angstrom": 3.0058
+    },
+    {
+      "atom_id": 102,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.4833,
+      "y_angstrom": 6.3016,
+      "z_angstrom": 4.5326
+    },
+    {
+      "atom_id": 103,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.0713,
+      "y_angstrom": 6.8991,
+      "z_angstrom": 5.6681
+    },
+    {
+      "atom_id": 104,
+      "element": "N",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.3115,
+      "y_angstrom": 5.8683,
+      "z_angstrom": 6.5387
+    },
+    {
+      "atom_id": 105,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.2055,
+      "y_angstrom": 4.7266,
+      "z_angstrom": 5.7871
+    },
+    {
+      "atom_id": 106,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.05,
+      "y_angstrom": 4.675,
+      "z_angstrom": 5.1034
+    },
+    {
+      "atom_id": 107,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.7817,
+      "y_angstrom": 2.9854,
+      "z_angstrom": 4.3588
+    },
+    {
+      "atom_id": 108,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.5831,
+      "y_angstrom": 1.8964,
+      "z_angstrom": 2.9181
+    },
+    {
+      "atom_id": 109,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.2279,
+      "y_angstrom": 2.3264,
+      "z_angstrom": 1.7364
+    },
+    {
+      "atom_id": 110,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.0862,
+      "y_angstrom": 2.085,
+      "z_angstrom": 0.5531
+    },
+    {
+      "atom_id": 111,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.069,
+      "y_angstrom": 1.3856,
+      "z_angstrom": -0.138
+    },
+    {
+      "atom_id": 112,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.465,
+      "y_angstrom": 0.5574,
+      "z_angstrom": 0.9117
+    },
+    {
+      "atom_id": 113,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.7462,
+      "y_angstrom": 0.6461,
+      "z_angstrom": 2.3613
+    },
+    {
+      "atom_id": 114,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.1796,
+      "y_angstrom": -0.9478,
+      "z_angstrom": 3.1316
+    },
+    {
+      "atom_id": 115,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.6983,
+      "y_angstrom": -2.2467,
+      "z_angstrom": 3.7739
+    },
+    {
+      "atom_id": 116,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.2154,
+      "y_angstrom": -2.5398,
+      "z_angstrom": 4.3631
+    },
+    {
+      "atom_id": 117,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.7694,
+      "y_angstrom": -1.993,
+      "z_angstrom": 5.034
+    },
+    {
+      "atom_id": 118,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.6029,
+      "y_angstrom": -1.7443,
+      "z_angstrom": 3.997
+    },
+    {
+      "atom_id": 119,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.2453,
+      "y_angstrom": -1.9053,
+      "z_angstrom": 2.6882
+    },
+    {
+      "atom_id": 120,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.7134,
+      "y_angstrom": -2.7772,
+      "z_angstrom": 2.6936
+    },
+    {
+      "atom_id": 121,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.8015,
+      "y_angstrom": -2.0591,
+      "z_angstrom": 3.3084
+    },
+    {
+      "atom_id": 122,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.286,
+      "y_angstrom": -0.6316,
+      "z_angstrom": 3.5914
+    },
+    {
+      "atom_id": 123,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.6447,
+      "y_angstrom": -0.3527,
+      "z_angstrom": 4.1118
+    },
+    {
+      "atom_id": 124,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.899,
+      "y_angstrom": 0.5233,
+      "z_angstrom": 4.5776
+    },
+    {
+      "atom_id": 125,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -5.2592,
+      "y_angstrom": 2.0084,
+      "z_angstrom": 4.0162
+    },
+    {
+      "atom_id": 126,
+      "element": "S",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -6.3433,
+      "y_angstrom": 2.9589,
+      "z_angstrom": 5.1114
+    },
+    {
+      "atom_id": 127,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.9703,
+      "y_angstrom": 3.1025,
+      "z_angstrom": 6.2303
+    },
+    {
+      "atom_id": 128,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.7993,
+      "y_angstrom": 2.711,
+      "z_angstrom": 5.5592
+    },
+    {
+      "atom_id": 129,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.3512,
+      "y_angstrom": 3.0756,
+      "z_angstrom": 3.8293
+    },
+    {
+      "atom_id": 130,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.194,
+      "y_angstrom": 4.2608,
+      "z_angstrom": 2.2641
+    },
+    {
+      "atom_id": 131,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.9306,
+      "y_angstrom": 4.7332,
+      "z_angstrom": 0.7977
+    },
+    {
+      "atom_id": 132,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.7343,
+      "y_angstrom": 4.111,
+      "z_angstrom": -0.4618
+    },
+    {
+      "atom_id": 133,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.2526,
+      "y_angstrom": 4.1225,
+      "z_angstrom": -0.4874
+    },
+    {
+      "atom_id": 134,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -5.0499,
+      "y_angstrom": 5.2377,
+      "z_angstrom": -0.5059
+    },
+    {
+      "atom_id": 135,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.0854,
+      "y_angstrom": 5.9108,
+      "z_angstrom": -1.0391
+    },
+    {
+      "atom_id": 136,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.9347,
+      "y_angstrom": 5.9649,
+      "z_angstrom": 0.1892
+    },
+    {
+      "atom_id": 137,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.3652,
+      "y_angstrom": 4.7329,
+      "z_angstrom": -2.562
+    },
+    {
+      "atom_id": 138,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.4548,
+      "y_angstrom": 2.8898,
+      "z_angstrom": -2.6902
+    },
+    {
+      "atom_id": 139,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.5135,
+      "y_angstrom": 2.5336,
+      "z_angstrom": -4.1112
+    },
+    {
+      "atom_id": 140,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.1549,
+      "y_angstrom": 1.2233,
+      "z_angstrom": -4.6846
+    },
+    {
+      "atom_id": 141,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.5763,
+      "y_angstrom": 0.2352,
+      "z_angstrom": -3.8977
+    },
+    {
+      "atom_id": 142,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.4662,
+      "y_angstrom": 0.7182,
+      "z_angstrom": -2.5602
+    },
+    {
+      "atom_id": 143,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.2322,
+      "y_angstrom": 1.6898,
+      "z_angstrom": -1.7888
+    },
+    {
+      "atom_id": 144,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.0075,
+      "y_angstrom": 1.2054,
+      "z_angstrom": -2.5173
+    },
+    {
+      "atom_id": 145,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.4808,
+      "y_angstrom": 4.4133,
+      "z_angstrom": -1.9261
+    },
+    {
+      "atom_id": 146,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.0917,
+      "y_angstrom": 3.4968,
+      "z_angstrom": -2.6187
+    },
+    {
+      "atom_id": 147,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.1362,
+      "y_angstrom": 3.422,
+      "z_angstrom": -4.0385
+    },
+    {
+      "atom_id": 148,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.3217,
+      "y_angstrom": 2.3819,
+      "z_angstrom": -5.0162
+    },
+    {
+      "atom_id": 149,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.3898,
+      "y_angstrom": 1.4468,
+      "z_angstrom": -4.979
+    },
+    {
+      "atom_id": 150,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.6662,
+      "y_angstrom": 1.0386,
+      "z_angstrom": -6.2615
+    },
+    {
+      "atom_id": 151,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.6615,
+      "y_angstrom": 0.3409,
+      "z_angstrom": -6.7838
+    },
+    {
+      "atom_id": 152,
+      "element": "N",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.6444,
+      "y_angstrom": 1.4548,
+      "z_angstrom": -7.0405
+    },
+    {
+      "atom_id": 153,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.2474,
+      "y_angstrom": 2.207,
+      "z_angstrom": -6.3037
+    },
+    {
+      "atom_id": 154,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.4729,
+      "y_angstrom": 2.6601,
+      "z_angstrom": -6.9228
+    },
+    {
+      "atom_id": 155,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.4017,
+      "y_angstrom": 3.3015,
+      "z_angstrom": -6.4617
+    },
+    {
+      "atom_id": 156,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.5206,
+      "y_angstrom": 2.2684,
+      "z_angstrom": -8.2181
+    },
+    {
+      "atom_id": 157,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.5339,
+      "y_angstrom": 4.581,
+      "z_angstrom": -4.6941
+    },
+    {
+      "atom_id": 158,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.2427,
+      "y_angstrom": 5.6645,
+      "z_angstrom": -4.219
+    },
+    {
+      "atom_id": 159,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.4016,
+      "y_angstrom": 6.6137,
+      "z_angstrom": -5.2726
+    },
+    {
+      "atom_id": 160,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.1584,
+      "y_angstrom": 7.7599,
+      "z_angstrom": -5.189
+    },
+    {
+      "atom_id": 161,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.7565,
+      "y_angstrom": 8.0037,
+      "z_angstrom": -3.9988
+    },
+    {
+      "atom_id": 162,
+      "element": "N",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.437,
+      "y_angstrom": 9.2224,
+      "z_angstrom": -3.7618
+    },
+    {
+      "atom_id": 163,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.4509,
+      "y_angstrom": 7.1296,
+      "z_angstrom": -2.9087
+    },
+    {
+      "atom_id": 164,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.7155,
+      "y_angstrom": 7.8375,
+      "z_angstrom": -1.7372
+    },
+    {
+      "atom_id": 165,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.7824,
+      "y_angstrom": 5.7405,
+      "z_angstrom": -2.8998
+    },
+    {
+      "atom_id": 166,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.8887,
+      "y_angstrom": 1.3527,
+      "z_angstrom": 6.4368
+    },
+    {
+      "atom_id": 167,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.5929,
+      "y_angstrom": 0.7109,
+      "z_angstrom": 7.4626
+    },
+    {
+      "atom_id": 168,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.3303,
+      "y_angstrom": -0.6521,
+      "z_angstrom": 7.8689
+    },
+    {
+      "atom_id": 169,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.1396,
+      "y_angstrom": -1.2032,
+      "z_angstrom": 8.871
+    },
+    {
+      "atom_id": 170,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -4.0294,
+      "y_angstrom": -2.5426,
+      "z_angstrom": 9.2513
+    },
+    {
+      "atom_id": 171,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -3.1065,
+      "y_angstrom": -3.3727,
+      "z_angstrom": 8.6286
+    },
+    {
+      "atom_id": 172,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.2743,
+      "y_angstrom": -2.8667,
+      "z_angstrom": 7.6315
+    },
+    {
+      "atom_id": 173,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -2.3448,
+      "y_angstrom": -1.5185,
+      "z_angstrom": 7.237
+    },
+    {
+      "atom_id": 174,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.4673,
+      "y_angstrom": -1.0031,
+      "z_angstrom": 6.2645
+    },
+    {
+      "atom_id": 175,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -1.602,
+      "y_angstrom": 0.4668,
+      "z_angstrom": 6.1254
+    },
+    {
+      "atom_id": 176,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": -0.1296,
+      "y_angstrom": 0.808,
+      "z_angstrom": 6.4164
+    },
+    {
+      "atom_id": 177,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.3784,
+      "y_angstrom": 0.9869,
+      "z_angstrom": 7.6984
+    },
+    {
+      "atom_id": 178,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.7692,
+      "y_angstrom": 0.9617,
+      "z_angstrom": 7.889
+    },
+    {
+      "atom_id": 179,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.2931,
+      "y_angstrom": 1.1423,
+      "z_angstrom": 9.2595
+    },
+    {
+      "atom_id": 180,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.493,
+      "y_angstrom": 1.1835,
+      "z_angstrom": 9.4995
+    },
+    {
+      "atom_id": 181,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.6778,
+      "y_angstrom": 0.7719,
+      "z_angstrom": 6.8163
+    },
+    {
+      "atom_id": 182,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.262,
+      "y_angstrom": 0.6052,
+      "z_angstrom": 5.4568
+    },
+    {
+      "atom_id": 183,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.1099,
+      "y_angstrom": 0.6308,
+      "z_angstrom": 4.056
+    },
+    {
+      "atom_id": 184,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.3602,
+      "y_angstrom": 1.9418,
+      "z_angstrom": 3.6667
+    },
+    {
+      "atom_id": 185,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.2734,
+      "y_angstrom": 3.2776,
+      "z_angstrom": 4.3291
+    },
+    {
+      "atom_id": 186,
+      "element": "N",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.972,
+      "y_angstrom": 2.9438,
+      "z_angstrom": 4.5129
+    },
+    {
+      "atom_id": 187,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.3822,
+      "y_angstrom": 2.8122,
+      "z_angstrom": 3.2296
+    },
+    {
+      "atom_id": 188,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.2472,
+      "y_angstrom": 4.1613,
+      "z_angstrom": 3.2664
+    },
+    {
+      "atom_id": 189,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.3795,
+      "y_angstrom": 4.883,
+      "z_angstrom": 2.8699
+    },
+    {
+      "atom_id": 190,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.5585,
+      "y_angstrom": 5.9764,
+      "z_angstrom": 3.4559
+    },
+    {
+      "atom_id": 191,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 1.3619,
+      "y_angstrom": 4.4602,
+      "z_angstrom": 4.3257
+    },
+    {
+      "atom_id": 192,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.9976,
+      "y_angstrom": 1.633,
+      "z_angstrom": 3.3345
+    },
+    {
+      "atom_id": 193,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.2587,
+      "y_angstrom": 0.752,
+      "z_angstrom": 4.1079
+    },
+    {
+      "atom_id": 194,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 0.8192,
+      "y_angstrom": 0.6171,
+      "z_angstrom": 5.3742
+    },
+    {
+      "atom_id": 195,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.3061,
+      "y_angstrom": -4.1147,
+      "z_angstrom": 2.9604
+    },
+    {
+      "atom_id": 196,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.2639,
+      "y_angstrom": -1.187,
+      "z_angstrom": 3.6251
+    },
+    {
+      "atom_id": 197,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.6058,
+      "y_angstrom": -1.2526,
+      "z_angstrom": 4.8683
+    },
+    {
+      "atom_id": 198,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.9168,
+      "y_angstrom": 0.0262,
+      "z_angstrom": 4.8701
+    },
+    {
+      "atom_id": 199,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 4.9212,
+      "y_angstrom": 1.3369,
+      "z_angstrom": 3.5915
+    },
+    {
+      "atom_id": 200,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.7547,
+      "y_angstrom": 1.2058,
+      "z_angstrom": 2.1272
+    },
+    {
+      "atom_id": 201,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 3.5224,
+      "y_angstrom": 2.1134,
+      "z_angstrom": 1.0904
+    },
+    {
+      "atom_id": 202,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.868,
+      "y_angstrom": 1.8037,
+      "z_angstrom": -0.1703
+    },
+    {
+      "atom_id": 203,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.7114,
+      "y_angstrom": 0.411,
+      "z_angstrom": -0.5056
+    },
+    {
+      "atom_id": 204,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.2493,
+      "y_angstrom": -0.308,
+      "z_angstrom": 0.6399
+    },
+    {
+      "atom_id": 205,
+      "element": "C",
+      "formal_charge": 0,
+      "aromatic": true,
+      "x_angstrom": 2.5466,
+      "y_angstrom": -0.1356,
+      "z_angstrom": 2.076
+    },
+    {
+      "atom_id": 206,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 1.0156,
+      "y_angstrom": -0.7723,
+      "z_angstrom": 0.3383
+    },
+    {
+      "atom_id": 207,
+      "element": "O",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.5129,
+      "y_angstrom": -0.0823,
+      "z_angstrom": -1.8837
+    },
+    {
+      "atom_id": 208,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 5.3308,
+      "y_angstrom": 3.5211,
+      "z_angstrom": -4.6118
+    },
+    {
+      "atom_id": 209,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 4.2598,
+      "y_angstrom": 2.3547,
+      "z_angstrom": -5.3979
+    },
+    {
+      "atom_id": 210,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 4.3833,
+      "y_angstrom": 4.0126,
+      "z_angstrom": -6.014
+    },
+    {
+      "atom_id": 211,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.4343,
+      "y_angstrom": 4.8609,
+      "z_angstrom": -3.8306
+    },
+    {
+      "atom_id": 212,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.323,
+      "y_angstrom": 3.9558,
+      "z_angstrom": -4.8161
+    },
+    {
+      "atom_id": 213,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.4083,
+      "y_angstrom": 4.8821,
+      "z_angstrom": -0.0811
+    },
+    {
+      "atom_id": 214,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 5.9447,
+      "y_angstrom": 4.6735,
+      "z_angstrom": 0.1115
+    },
+    {
+      "atom_id": 215,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 7.0,
+      "y_angstrom": 2.656,
+      "z_angstrom": 0.969
+    },
+    {
+      "atom_id": 216,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 4.912,
+      "y_angstrom": 0.4634,
+      "z_angstrom": -2.1321
+    },
+    {
+      "atom_id": 217,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 8.7018,
+      "y_angstrom": -0.0531,
+      "z_angstrom": 3.0415
+    },
+    {
+      "atom_id": 218,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.8628,
+      "y_angstrom": -3.7058,
+      "z_angstrom": -0.2849
+    },
+    {
+      "atom_id": 219,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 5.5265,
+      "y_angstrom": -4.2411,
+      "z_angstrom": -2.0061
+    },
+    {
+      "atom_id": 220,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 7.3421,
+      "y_angstrom": -2.7451,
+      "z_angstrom": -2.5552
+    },
+    {
+      "atom_id": 221,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 7.4792,
+      "y_angstrom": -0.642,
+      "z_angstrom": -1.2972
+    },
+    {
+      "atom_id": 222,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.1406,
+      "y_angstrom": -3.3636,
+      "z_angstrom": 4.0891
+    },
+    {
+      "atom_id": 223,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.6557,
+      "y_angstrom": -6.7838,
+      "z_angstrom": 1.1759
+    },
+    {
+      "atom_id": 224,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 5.7654,
+      "y_angstrom": -4.775,
+      "z_angstrom": 1.432
+    },
+    {
+      "atom_id": 225,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 5.1891,
+      "y_angstrom": -6.239,
+      "z_angstrom": 2.1745
+    },
+    {
+      "atom_id": 226,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 6.87,
+      "y_angstrom": -7.4734,
+      "z_angstrom": 0.1326
+    },
+    {
+      "atom_id": 227,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 6.3863,
+      "y_angstrom": -7.9281,
+      "z_angstrom": -2.4928
+    },
+    {
+      "atom_id": 228,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.2622,
+      "y_angstrom": -5.6078,
+      "z_angstrom": -0.9654
+    },
+    {
+      "atom_id": 229,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 6.0013,
+      "y_angstrom": -5.5714,
+      "z_angstrom": -4.9907
+    },
+    {
+      "atom_id": 230,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 6.2855,
+      "y_angstrom": -3.2658,
+      "z_angstrom": -5.8693
+    },
+    {
+      "atom_id": 231,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 4.6934,
+      "y_angstrom": -1.48,
+      "z_angstrom": -5.2674
+    },
+    {
+      "atom_id": 232,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.4366,
+      "y_angstrom": -4.3431,
+      "z_angstrom": -2.9476
+    },
+    {
+      "atom_id": 233,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.7958,
+      "y_angstrom": -2.5034,
+      "z_angstrom": -1.0819
+    },
+    {
+      "atom_id": 234,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.816,
+      "y_angstrom": -5.3328,
+      "z_angstrom": -1.2433
+    },
+    {
+      "atom_id": 235,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.6115,
+      "y_angstrom": -2.534,
+      "z_angstrom": -3.2468
+    },
+    {
+      "atom_id": 236,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.185,
+      "y_angstrom": -0.1921,
+      "z_angstrom": -5.6784
+    },
+    {
+      "atom_id": 237,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.2101,
+      "y_angstrom": -2.2867,
+      "z_angstrom": -6.5461
+    },
+    {
+      "atom_id": 238,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.524,
+      "y_angstrom": -1.8778,
+      "z_angstrom": -6.75
+    },
+    {
+      "atom_id": 239,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.7445,
+      "y_angstrom": -4.7172,
+      "z_angstrom": -6.3919
+    },
+    {
+      "atom_id": 240,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 1.8909,
+      "y_angstrom": -6.9336,
+      "z_angstrom": -5.6499
+    },
+    {
+      "atom_id": 241,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.5087,
+      "y_angstrom": -4.5953,
+      "z_angstrom": -5.4274
+    },
+    {
+      "atom_id": 242,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 1.6823,
+      "y_angstrom": -7.1967,
+      "z_angstrom": -3.5622
+    },
+    {
+      "atom_id": 243,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.2297,
+      "y_angstrom": -8.5552,
+      "z_angstrom": -1.6472
+    },
+    {
+      "atom_id": 244,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.4354,
+      "y_angstrom": -9.5544,
+      "z_angstrom": -0.2579
+    },
+    {
+      "atom_id": 245,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.9113,
+      "y_angstrom": -9.1379,
+      "z_angstrom": -0.8123
+    },
+    {
+      "atom_id": 246,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.8511,
+      "y_angstrom": -8.6436,
+      "z_angstrom": -4.6818
+    },
+    {
+      "atom_id": 247,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.2725,
+      "y_angstrom": -8.7307,
+      "z_angstrom": -5.0606
+    },
+    {
+      "atom_id": 248,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -6.84,
+      "y_angstrom": -7.9411,
+      "z_angstrom": -3.3088
+    },
+    {
+      "atom_id": 249,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.9723,
+      "y_angstrom": -6.9771,
+      "z_angstrom": -1.2239
+    },
+    {
+      "atom_id": 250,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.8619,
+      "y_angstrom": -4.8301,
+      "z_angstrom": -1.1327
+    },
+    {
+      "atom_id": 251,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -6.2323,
+      "y_angstrom": -2.4527,
+      "z_angstrom": -1.5706
+    },
+    {
+      "atom_id": 252,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.5418,
+      "y_angstrom": -0.8355,
+      "z_angstrom": -1.1544
+    },
+    {
+      "atom_id": 253,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.0187,
+      "y_angstrom": -3.8524,
+      "z_angstrom": 0.5588
+    },
+    {
+      "atom_id": 254,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.1671,
+      "y_angstrom": -1.0781,
+      "z_angstrom": 1.2697
+    },
+    {
+      "atom_id": 255,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.0551,
+      "y_angstrom": -1.8136,
+      "z_angstrom": 0.1327
+    },
+    {
+      "atom_id": 256,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.6919,
+      "y_angstrom": 0.464,
+      "z_angstrom": -2.2353
+    },
+    {
+      "atom_id": 257,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.2534,
+      "y_angstrom": 2.7974,
+      "z_angstrom": -0.6799
+    },
+    {
+      "atom_id": 258,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 1.1641,
+      "y_angstrom": 2.7644,
+      "z_angstrom": 0.9371
+    },
+    {
+      "atom_id": 259,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.9051,
+      "y_angstrom": 5.4473,
+      "z_angstrom": -1.5861
+    },
+    {
+      "atom_id": 260,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.4017,
+      "y_angstrom": 7.5025,
+      "z_angstrom": -1.3494
+    },
+    {
+      "atom_id": 261,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 1.4234,
+      "y_angstrom": 5.4214,
+      "z_angstrom": 1.9365
+    },
+    {
+      "atom_id": 262,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.0553,
+      "y_angstrom": 8.0906,
+      "z_angstrom": 3.0818
+    },
+    {
+      "atom_id": 263,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.6545,
+      "y_angstrom": 7.6857,
+      "z_angstrom": 3.0922
+    },
+    {
+      "atom_id": 264,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.4657,
+      "y_angstrom": 7.8905,
+      "z_angstrom": 5.8455
+    },
+    {
+      "atom_id": 265,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.918,
+      "y_angstrom": 5.9575,
+      "z_angstrom": 7.3407
+    },
+    {
+      "atom_id": 266,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.5922,
+      "y_angstrom": 3.6606,
+      "z_angstrom": 4.472
+    },
+    {
+      "atom_id": 267,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.5034,
+      "y_angstrom": 2.3813,
+      "z_angstrom": 5.1713
+    },
+    {
+      "atom_id": 268,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.3978,
+      "y_angstrom": 2.951,
+      "z_angstrom": 1.5836
+    },
+    {
+      "atom_id": 269,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.9315,
+      "y_angstrom": 2.5453,
+      "z_angstrom": 1.1426
+    },
+    {
+      "atom_id": 270,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.236,
+      "y_angstrom": -0.1981,
+      "z_angstrom": 0.8083
+    },
+    {
+      "atom_id": 271,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.3806,
+      "y_angstrom": -3.1035,
+      "z_angstrom": 3.7706
+    },
+    {
+      "atom_id": 272,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.1006,
+      "y_angstrom": -0.9589,
+      "z_angstrom": 2.1874
+    },
+    {
+      "atom_id": 273,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.7268,
+      "y_angstrom": -0.0117,
+      "z_angstrom": 2.9026
+    },
+    {
+      "atom_id": 274,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.0361,
+      "y_angstrom": 0.4387,
+      "z_angstrom": 5.6518
+    },
+    {
+      "atom_id": 275,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.8213,
+      "y_angstrom": -0.022,
+      "z_angstrom": 4.2806
+    },
+    {
+      "atom_id": 276,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.1768,
+      "y_angstrom": 3.238,
+      "z_angstrom": 7.2815
+    },
+    {
+      "atom_id": 277,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.0972,
+      "y_angstrom": 3.8992,
+      "z_angstrom": 1.7477
+    },
+    {
+      "atom_id": 278,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.5914,
+      "y_angstrom": 5.2145,
+      "z_angstrom": 2.632
+    },
+    {
+      "atom_id": 279,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.9388,
+      "y_angstrom": 3.3079,
+      "z_angstrom": -0.2817
+    },
+    {
+      "atom_id": 280,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -6.1066,
+      "y_angstrom": 5.1898,
+      "z_angstrom": -0.7003
+    },
+    {
+      "atom_id": 281,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -5.4018,
+      "y_angstrom": 5.0034,
+      "z_angstrom": -2.8489
+    },
+    {
+      "atom_id": 282,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.7996,
+      "y_angstrom": 5.0624,
+      "z_angstrom": -3.4249
+    },
+    {
+      "atom_id": 283,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.7357,
+      "y_angstrom": 3.3242,
+      "z_angstrom": -4.8314
+    },
+    {
+      "atom_id": 284,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.1786,
+      "y_angstrom": 1.1132,
+      "z_angstrom": -5.766
+    },
+    {
+      "atom_id": 285,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.4788,
+      "y_angstrom": 1.1602,
+      "z_angstrom": -3.4644
+    },
+    {
+      "atom_id": 286,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.0579,
+      "y_angstrom": 2.2619,
+      "z_angstrom": -2.3406
+    },
+    {
+      "atom_id": 287,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 2.0051,
+      "y_angstrom": 1.1749,
+      "z_angstrom": -4.1421
+    },
+    {
+      "atom_id": 288,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.2913,
+      "y_angstrom": 0.1818,
+      "z_angstrom": -6.0582
+    },
+    {
+      "atom_id": 289,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.5213,
+      "y_angstrom": 1.2269,
+      "z_angstrom": -8.0187
+    },
+    {
+      "atom_id": 290,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.3951,
+      "y_angstrom": 2.6012,
+      "z_angstrom": -8.5103
+    },
+    {
+      "atom_id": 291,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.2249,
+      "y_angstrom": 4.6352,
+      "z_angstrom": -5.7432
+    },
+    {
+      "atom_id": 292,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.9352,
+      "y_angstrom": 6.4505,
+      "z_angstrom": -6.2475
+    },
+    {
+      "atom_id": 293,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.2476,
+      "y_angstrom": 8.4306,
+      "z_angstrom": -6.0347
+    },
+    {
+      "atom_id": 294,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.7862,
+      "y_angstrom": 9.6352,
+      "z_angstrom": -4.6242
+    },
+    {
+      "atom_id": 295,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.2173,
+      "y_angstrom": 9.0638,
+      "z_angstrom": -3.119
+    },
+    {
+      "atom_id": 296,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.6759,
+      "y_angstrom": 8.783,
+      "z_angstrom": -1.9788
+    },
+    {
+      "atom_id": 297,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.4575,
+      "y_angstrom": 1.1962,
+      "z_angstrom": 7.9089
+    },
+    {
+      "atom_id": 298,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.8953,
+      "y_angstrom": -0.5957,
+      "z_angstrom": 9.3666
+    },
+    {
+      "atom_id": 299,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -4.6786,
+      "y_angstrom": -2.9406,
+      "z_angstrom": 10.0275
+    },
+    {
+      "atom_id": 300,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.0294,
+      "y_angstrom": -4.4176,
+      "z_angstrom": 8.9191
+    },
+    {
+      "atom_id": 301,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.5496,
+      "y_angstrom": -3.5406,
+      "z_angstrom": 7.1778
+    },
+    {
+      "atom_id": 302,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.2996,
+      "y_angstrom": 1.0769,
+      "z_angstrom": 8.5431
+    },
+    {
+      "atom_id": 303,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 1.5454,
+      "y_angstrom": 1.2451,
+      "z_angstrom": 10.0638
+    },
+    {
+      "atom_id": 304,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.7417,
+      "y_angstrom": 0.8348,
+      "z_angstrom": 7.0395
+    },
+    {
+      "atom_id": 305,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 0.5477,
+      "y_angstrom": 2.7423,
+      "z_angstrom": 5.4141
+    },
+    {
+      "atom_id": 306,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -1.3122,
+      "y_angstrom": 4.8577,
+      "z_angstrom": 1.8396
+    },
+    {
+      "atom_id": 307,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.0469,
+      "y_angstrom": 4.093,
+      "z_angstrom": 2.8475
+    },
+    {
+      "atom_id": 308,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -2.3751,
+      "y_angstrom": 6.8862,
+      "z_angstrom": 4.0322
+    },
+    {
+      "atom_id": 309,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.271,
+      "y_angstrom": 5.4816,
+      "z_angstrom": 4.1205
+    },
+    {
+      "atom_id": 310,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -3.0887,
+      "y_angstrom": 6.4318,
+      "z_angstrom": 2.6209
+    },
+    {
+      "atom_id": 311,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": -0.7824,
+      "y_angstrom": 0.8599,
+      "z_angstrom": 4.0303
+    },
+    {
+      "atom_id": 312,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.4988,
+      "y_angstrom": -1.8921,
+      "z_angstrom": 5.7444
+    },
+    {
+      "atom_id": 313,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 5.6288,
+      "y_angstrom": 0.0681,
+      "z_angstrom": 5.6922
+    },
+    {
+      "atom_id": 314,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 5.6116,
+      "y_angstrom": 2.1771,
+      "z_angstrom": 3.6579
+    },
+    {
+      "atom_id": 315,
+      "element": "H",
+      "formal_charge": 0,
+      "aromatic": false,
+      "x_angstrom": 3.8247,
+      "y_angstrom": 3.1311,
+      "z_angstrom": 1.3256
+    }
+  ],
+  "bonds": [
+    {
+      "atom_id_1": 1,
+      "atom_id_2": 2,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5250654215475479
+    },
+    {
+      "atom_id_1": 2,
+      "atom_id_2": 3,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5575027479911547
+    },
+    {
+      "atom_id_1": 3,
+      "atom_id_2": 4,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4920638927338197
+    },
+    {
+      "atom_id_1": 4,
+      "atom_id_2": 5,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3931810399226656
+    },
+    {
+      "atom_id_1": 5,
+      "atom_id_2": 6,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.453041737184448
+    },
+    {
+      "atom_id_1": 6,
+      "atom_id_2": 7,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3817294814832601
+    },
+    {
+      "atom_id_1": 7,
+      "atom_id_2": 8,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4285494286163156
+    },
+    {
+      "atom_id_1": 8,
+      "atom_id_2": 9,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.416653712097632
+    },
+    {
+      "atom_id_1": 9,
+      "atom_id_2": 10,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3893158388213962
+    },
+    {
+      "atom_id_1": 10,
+      "atom_id_2": 11,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.5067378836413454
+    },
+    {
+      "atom_id_1": 11,
+      "atom_id_2": 12,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.5435823463618645
+    },
+    {
+      "atom_id_1": 10,
+      "atom_id_2": 13,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.646523325070131
+    },
+    {
+      "atom_id_1": 13,
+      "atom_id_2": 14,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4710350301743325
+    },
+    {
+      "atom_id_1": 14,
+      "atom_id_2": 15,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5197186877840256
+    },
+    {
+      "atom_id_1": 15,
+      "atom_id_2": 16,
+      "order": 2.0,
+      "aromatic": false,
+      "length_angstrom": 1.2152654277975656
+    },
+    {
+      "atom_id_1": 15,
+      "atom_id_2": 17,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3502352757945562
+    },
+    {
+      "atom_id_1": 14,
+      "atom_id_2": 18,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.693638311446691
+    },
+    {
+      "atom_id_1": 18,
+      "atom_id_2": 19,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.6611390850858938
+    },
+    {
+      "atom_id_1": 19,
+      "atom_id_2": 20,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.6178637952559547
+    },
+    {
+      "atom_id_1": 20,
+      "atom_id_2": 21,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3917377375066036
+    },
+    {
+      "atom_id_1": 21,
+      "atom_id_2": 22,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4139984335210558
+    },
+    {
+      "atom_id_1": 22,
+      "atom_id_2": 23,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3643974274382082
+    },
+    {
+      "atom_id_1": 23,
+      "atom_id_2": 24,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.355716345700678
+    },
+    {
+      "atom_id_1": 24,
+      "atom_id_2": 25,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4078134748609277
+    },
+    {
+      "atom_id_1": 19,
+      "atom_id_2": 26,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.737495007187071
+    },
+    {
+      "atom_id_1": 26,
+      "atom_id_2": 27,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.400427313358319
+    },
+    {
+      "atom_id_1": 27,
+      "atom_id_2": 28,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4259651994351055
+    },
+    {
+      "atom_id_1": 28,
+      "atom_id_2": 29,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3227201253477623
+    },
+    {
+      "atom_id_1": 29,
+      "atom_id_2": 30,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3470023422399826
+    },
+    {
+      "atom_id_1": 30,
+      "atom_id_2": 31,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4343751322440024
+    },
+    {
+      "atom_id_1": 31,
+      "atom_id_2": 32,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.530552847829829
+    },
+    {
+      "atom_id_1": 32,
+      "atom_id_2": 33,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5379539037305374
+    },
+    {
+      "atom_id_1": 33,
+      "atom_id_2": 34,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.386155936393882
+    },
+    {
+      "atom_id_1": 34,
+      "atom_id_2": 35,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4240997788076508
+    },
+    {
+      "atom_id_1": 35,
+      "atom_id_2": 36,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3782474414995303
+    },
+    {
+      "atom_id_1": 36,
+      "atom_id_2": 37,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.377333078815723
+    },
+    {
+      "atom_id_1": 36,
+      "atom_id_2": 38,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3416420908722264
+    },
+    {
+      "atom_id_1": 38,
+      "atom_id_2": 39,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3834952547804422
+    },
+    {
+      "atom_id_1": 39,
+      "atom_id_2": 40,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.392385901968273
+    },
+    {
+      "atom_id_1": 40,
+      "atom_id_2": 41,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3999082648516645
+    },
+    {
+      "atom_id_1": 41,
+      "atom_id_2": 42,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4037006839066508
+    },
+    {
+      "atom_id_1": 42,
+      "atom_id_2": 43,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3987211659226444
+    },
+    {
+      "atom_id_1": 43,
+      "atom_id_2": 44,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4230781215379569
+    },
+    {
+      "atom_id_1": 43,
+      "atom_id_2": 45,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4999287649751902
+    },
+    {
+      "atom_id_1": 45,
+      "atom_id_2": 46,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.42400226474539
+    },
+    {
+      "atom_id_1": 46,
+      "atom_id_2": 47,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3969429838042782
+    },
+    {
+      "atom_id_1": 47,
+      "atom_id_2": 48,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4751920417355835
+    },
+    {
+      "atom_id_1": 48,
+      "atom_id_2": 49,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.403033574081533
+    },
+    {
+      "atom_id_1": 49,
+      "atom_id_2": 50,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.466936198339928
+    },
+    {
+      "atom_id_1": 50,
+      "atom_id_2": 51,
+      "order": 2.0,
+      "aromatic": false,
+      "length_angstrom": 1.2190760148571536
+    },
+    {
+      "atom_id_1": 50,
+      "atom_id_2": 52,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3427214193569714
+    },
+    {
+      "atom_id_1": 49,
+      "atom_id_2": 53,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.43160398853873
+    },
+    {
+      "atom_id_1": 53,
+      "atom_id_2": 54,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3863705312794272
+    },
+    {
+      "atom_id_1": 54,
+      "atom_id_2": 55,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4129929299186175
+    },
+    {
+      "atom_id_1": 55,
+      "atom_id_2": 56,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4942046814275478
+    },
+    {
+      "atom_id_1": 56,
+      "atom_id_2": 57,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4281459904365519
+    },
+    {
+      "atom_id_1": 57,
+      "atom_id_2": 58,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.560285711015774
+    },
+    {
+      "atom_id_1": 58,
+      "atom_id_2": 59,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5268258905323815
+    },
+    {
+      "atom_id_1": 59,
+      "atom_id_2": 60,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3778216466582314
+    },
+    {
+      "atom_id_1": 60,
+      "atom_id_2": 61,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3747009092889988
+    },
+    {
+      "atom_id_1": 61,
+      "atom_id_2": 62,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3763831661278048
+    },
+    {
+      "atom_id_1": 62,
+      "atom_id_2": 63,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4279989810920732
+    },
+    {
+      "atom_id_1": 63,
+      "atom_id_2": 64,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4484906661763475
+    },
+    {
+      "atom_id_1": 64,
+      "atom_id_2": 65,
+      "order": 2.0,
+      "aromatic": false,
+      "length_angstrom": 1.2292394965994222
+    },
+    {
+      "atom_id_1": 62,
+      "atom_id_2": 66,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3641655214819062
+    },
+    {
+      "atom_id_1": 66,
+      "atom_id_2": 67,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3951836904149932
+    },
+    {
+      "atom_id_1": 67,
+      "atom_id_2": 68,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4037992555917673
+    },
+    {
+      "atom_id_1": 68,
+      "atom_id_2": 69,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3976553258940483
+    },
+    {
+      "atom_id_1": 69,
+      "atom_id_2": 70,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3822121002219596
+    },
+    {
+      "atom_id_1": 70,
+      "atom_id_2": 71,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.391046181835815
+    },
+    {
+      "atom_id_1": 71,
+      "atom_id_2": 72,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4177754476644036
+    },
+    {
+      "atom_id_1": 72,
+      "atom_id_2": 73,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4835085237368875
+    },
+    {
+      "atom_id_1": 73,
+      "atom_id_2": 74,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4136500875393454
+    },
+    {
+      "atom_id_1": 74,
+      "atom_id_2": 75,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3958862561111491
+    },
+    {
+      "atom_id_1": 75,
+      "atom_id_2": 76,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3875026126101528
+    },
+    {
+      "atom_id_1": 76,
+      "atom_id_2": 77,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3935183816512793
+    },
+    {
+      "atom_id_1": 77,
+      "atom_id_2": 78,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4091627407790763
+    },
+    {
+      "atom_id_1": 78,
+      "atom_id_2": 79,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.8202360671077806
+    },
+    {
+      "atom_id_1": 79,
+      "atom_id_2": 80,
+      "order": 2.0,
+      "aromatic": false,
+      "length_angstrom": 1.454147791663557
+    },
+    {
+      "atom_id_1": 79,
+      "atom_id_2": 81,
+      "order": 2.0,
+      "aromatic": false,
+      "length_angstrom": 1.45324687854473
+    },
+    {
+      "atom_id_1": 79,
+      "atom_id_2": 82,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.808660689571153
+    },
+    {
+      "atom_id_1": 82,
+      "atom_id_2": 83,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3845093679711955
+    },
+    {
+      "atom_id_1": 83,
+      "atom_id_2": 84,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.384460338904658
+    },
+    {
+      "atom_id_1": 84,
+      "atom_id_2": 85,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4072810273715768
+    },
+    {
+      "atom_id_1": 85,
+      "atom_id_2": 86,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3901147686432223
+    },
+    {
+      "atom_id_1": 86,
+      "atom_id_2": 87,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.427766983789722
+    },
+    {
+      "atom_id_1": 86,
+      "atom_id_2": 88,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5434180930648702
+    },
+    {
+      "atom_id_1": 88,
+      "atom_id_2": 89,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.6017701270781646
+    },
+    {
+      "atom_id_1": 89,
+      "atom_id_2": 90,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3550732600121664
+    },
+    {
+      "atom_id_1": 90,
+      "atom_id_2": 91,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3400073805766894
+    },
+    {
+      "atom_id_1": 91,
+      "atom_id_2": 92,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3774711975210225
+    },
+    {
+      "atom_id_1": 92,
+      "atom_id_2": 93,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3690739132713032
+    },
+    {
+      "atom_id_1": 93,
+      "atom_id_2": 94,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.839830301957221
+    },
+    {
+      "atom_id_1": 94,
+      "atom_id_2": 95,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.6961592643381107
+    },
+    {
+      "atom_id_1": 95,
+      "atom_id_2": 96,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.373076785908202
+    },
+    {
+      "atom_id_1": 96,
+      "atom_id_2": 97,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.433269224535293
+    },
+    {
+      "atom_id_1": 97,
+      "atom_id_2": 98,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3793459065803617
+    },
+    {
+      "atom_id_1": 98,
+      "atom_id_2": 99,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4696637608650494
+    },
+    {
+      "atom_id_1": 99,
+      "atom_id_2": 100,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4720385117244725
+    },
+    {
+      "atom_id_1": 99,
+      "atom_id_2": 101,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.60364729289205
+    },
+    {
+      "atom_id_1": 101,
+      "atom_id_2": 102,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.8026321754589878
+    },
+    {
+      "atom_id_1": 102,
+      "atom_id_2": 103,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3978367787406365
+    },
+    {
+      "atom_id_1": 103,
+      "atom_id_2": 104,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3704703718067024
+    },
+    {
+      "atom_id_1": 104,
+      "atom_id_2": 105,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3709914113516537
+    },
+    {
+      "atom_id_1": 105,
+      "atom_id_2": 106,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4305203598690934
+    },
+    {
+      "atom_id_1": 106,
+      "atom_id_2": 107,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.9860921957452025
+    },
+    {
+      "atom_id_1": 107,
+      "atom_id_2": 108,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.975798433545284
+    },
+    {
+      "atom_id_1": 108,
+      "atom_id_2": 109,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.306706520225563
+    },
+    {
+      "atom_id_1": 109,
+      "atom_id_2": 110,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.481604447887492
+    },
+    {
+      "atom_id_1": 110,
+      "atom_id_2": 111,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.390206966606052
+    },
+    {
+      "atom_id_1": 111,
+      "atom_id_2": 112,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3944896306534516
+    },
+    {
+      "atom_id_1": 112,
+      "atom_id_2": 113,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.6204571237771148
+    },
+    {
+      "atom_id_1": 113,
+      "atom_id_2": 114,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.8225572309258222
+    },
+    {
+      "atom_id_1": 114,
+      "atom_id_2": 115,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.526872682969998
+    },
+    {
+      "atom_id_1": 115,
+      "atom_id_2": 116,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.6223614455478168
+    },
+    {
+      "atom_id_1": 116,
+      "atom_id_2": 117,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.6852338265059834
+    },
+    {
+      "atom_id_1": 117,
+      "atom_id_2": 118,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.7379378527438776
+    },
+    {
+      "atom_id_1": 118,
+      "atom_id_2": 119,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3662928675800075
+    },
+    {
+      "atom_id_1": 119,
+      "atom_id_2": 120,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.295895234963074
+    },
+    {
+      "atom_id_1": 120,
+      "atom_id_2": 121,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4413910850286262
+    },
+    {
+      "atom_id_1": 121,
+      "atom_id_2": 122,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.533814036967976
+    },
+    {
+      "atom_id_1": 122,
+      "atom_id_2": 123,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4814408729341846
+    },
+    {
+      "atom_id_1": 123,
+      "atom_id_2": 124,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5992542418264837
+    },
+    {
+      "atom_id_1": 124,
+      "atom_id_2": 125,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.6280159735088597
+    },
+    {
+      "atom_id_1": 125,
+      "atom_id_2": 126,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8105761790104273
+    },
+    {
+      "atom_id_1": 126,
+      "atom_id_2": 127,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.776988230124218
+    },
+    {
+      "atom_id_1": 127,
+      "atom_id_2": 128,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.405307247544109
+    },
+    {
+      "atom_id_1": 128,
+      "atom_id_2": 129,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8520477261669042
+    },
+    {
+      "atom_id_1": 129,
+      "atom_id_2": 130,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.9695841997741552
+    },
+    {
+      "atom_id_1": 130,
+      "atom_id_2": 131,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.9924031419368924
+    },
+    {
+      "atom_id_1": 131,
+      "atom_id_2": 132,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4184522480506705
+    },
+    {
+      "atom_id_1": 132,
+      "atom_id_2": 133,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.5185593501737098
+    },
+    {
+      "atom_id_1": 133,
+      "atom_id_2": 134,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3710217284930248
+    },
+    {
+      "atom_id_1": 134,
+      "atom_id_2": 135,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.2913659822064385
+    },
+    {
+      "atom_id_1": 135,
+      "atom_id_2": 136,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.6839709587757148
+    },
+    {
+      "atom_id_1": 135,
+      "atom_id_2": 137,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.945497586737131
+    },
+    {
+      "atom_id_1": 137,
+      "atom_id_2": 138,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.8497245767951507
+    },
+    {
+      "atom_id_1": 138,
+      "atom_id_2": 139,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.466139532923112
+    },
+    {
+      "atom_id_1": 139,
+      "atom_id_2": 140,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.474539796004163
+    },
+    {
+      "atom_id_1": 140,
+      "atom_id_2": 141,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.389363588122274
+    },
+    {
+      "atom_id_1": 141,
+      "atom_id_2": 142,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.426294941447946
+    },
+    {
+      "atom_id_1": 142,
+      "atom_id_2": 143,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4580193825872136
+    },
+    {
+      "atom_id_1": 142,
+      "atom_id_2": 144,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5385089989987062
+    },
+    {
+      "atom_id_1": 132,
+      "atom_id_2": 145,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.9511078980927734
+    },
+    {
+      "atom_id_1": 145,
+      "atom_id_2": 146,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8025720013358688
+    },
+    {
+      "atom_id_1": 146,
+      "atom_id_2": 147,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4224652298035265
+    },
+    {
+      "atom_id_1": 147,
+      "atom_id_2": 148,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4991256485031537
+    },
+    {
+      "atom_id_1": 148,
+      "atom_id_2": 149,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4200822018460761
+    },
+    {
+      "atom_id_1": 149,
+      "atom_id_2": 150,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3739834242086035
+    },
+    {
+      "atom_id_1": 150,
+      "atom_id_2": 151,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3229530112592818
+    },
+    {
+      "atom_id_1": 150,
+      "atom_id_2": 152,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3506067821538583
+    },
+    {
+      "atom_id_1": 152,
+      "atom_id_2": 153,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3798501078015681
+    },
+    {
+      "atom_id_1": 153,
+      "atom_id_2": 154,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4458335554274564
+    },
+    {
+      "atom_id_1": 154,
+      "atom_id_2": 155,
+      "order": 2.0,
+      "aromatic": false,
+      "length_angstrom": 1.219293488049534
+    },
+    {
+      "atom_id_1": 154,
+      "atom_id_2": 156,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3540702603631765
+    },
+    {
+      "atom_id_1": 147,
+      "atom_id_2": 157,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3896969633700724
+    },
+    {
+      "atom_id_1": 157,
+      "atom_id_2": 158,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3791626807595974
+    },
+    {
+      "atom_id_1": 158,
+      "atom_id_2": 159,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4269908233762394
+    },
+    {
+      "atom_id_1": 159,
+      "atom_id_2": 160,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.376048560189647
+    },
+    {
+      "atom_id_1": 160,
+      "atom_id_2": 161,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3541558588286653
+    },
+    {
+      "atom_id_1": 161,
+      "atom_id_2": 162,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4157962212126434
+    },
+    {
+      "atom_id_1": 161,
+      "atom_id_2": 163,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4303007306157682
+    },
+    {
+      "atom_id_1": 163,
+      "atom_id_2": 164,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3941118391291283
+    },
+    {
+      "atom_id_1": 163,
+      "atom_id_2": 165,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.541612879422068
+    },
+    {
+      "atom_id_1": 128,
+      "atom_id_2": 166,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.8558968209466817
+    },
+    {
+      "atom_id_1": 166,
+      "atom_id_2": 167,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4000251854877472
+    },
+    {
+      "atom_id_1": 167,
+      "atom_id_2": 168,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.446308214040147
+    },
+    {
+      "atom_id_1": 168,
+      "atom_id_2": 169,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4010289468815413
+    },
+    {
+      "atom_id_1": 169,
+      "atom_id_2": 170,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3966977088833503
+    },
+    {
+      "atom_id_1": 170,
+      "atom_id_2": 171,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3887280907362678
+    },
+    {
+      "atom_id_1": 171,
+      "atom_id_2": 172,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3938440551223803
+    },
+    {
+      "atom_id_1": 172,
+      "atom_id_2": 173,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4065005296835118
+    },
+    {
+      "atom_id_1": 173,
+      "atom_id_2": 174,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4076219876088896
+    },
+    {
+      "atom_id_1": 174,
+      "atom_id_2": 175,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4825987016047195
+    },
+    {
+      "atom_id_1": 175,
+      "atom_id_2": 176,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5391751687186228
+    },
+    {
+      "atom_id_1": 176,
+      "atom_id_2": 177,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3905370221608628
+    },
+    {
+      "atom_id_1": 177,
+      "atom_id_2": 178,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4040256550362604
+    },
+    {
+      "atom_id_1": 178,
+      "atom_id_2": 179,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4782955793751116
+    },
+    {
+      "atom_id_1": 179,
+      "atom_id_2": 180,
+      "order": 2.0,
+      "aromatic": false,
+      "length_angstrom": 1.2243600164984154
+    },
+    {
+      "atom_id_1": 178,
+      "atom_id_2": 181,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.418542664145143
+    },
+    {
+      "atom_id_1": 181,
+      "atom_id_2": 182,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.431404478126291
+    },
+    {
+      "atom_id_1": 182,
+      "atom_id_2": 183,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.637629509382388
+    },
+    {
+      "atom_id_1": 183,
+      "atom_id_2": 184,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.5595914785609726
+    },
+    {
+      "atom_id_1": 184,
+      "atom_id_2": 185,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4935426475330393
+    },
+    {
+      "atom_id_1": 185,
+      "atom_id_2": 186,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3560408695905888
+    },
+    {
+      "atom_id_1": 186,
+      "atom_id_2": 187,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.418464483164806
+    },
+    {
+      "atom_id_1": 187,
+      "atom_id_2": 188,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.356336997209764
+    },
+    {
+      "atom_id_1": 188,
+      "atom_id_2": 189,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.823243272303507
+    },
+    {
+      "atom_id_1": 189,
+      "atom_id_2": 190,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.7114206262634561
+    },
+    {
+      "atom_id_1": 188,
+      "atom_id_2": 191,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.5665292177294368
+    },
+    {
+      "atom_id_1": 187,
+      "atom_id_2": 192,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.334254027537485
+    },
+    {
+      "atom_id_1": 192,
+      "atom_id_2": 193,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3857423173158856
+    },
+    {
+      "atom_id_1": 193,
+      "atom_id_2": 194,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3913568737027897
+    },
+    {
+      "atom_id_1": 120,
+      "atom_id_2": 195,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.423369867602936
+    },
+    {
+      "atom_id_1": 118,
+      "atom_id_2": 196,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.7910371017932598
+    },
+    {
+      "atom_id_1": 196,
+      "atom_id_2": 197,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8304494557348472
+    },
+    {
+      "atom_id_1": 197,
+      "atom_id_2": 198,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8314075679651431
+    },
+    {
+      "atom_id_1": 198,
+      "atom_id_2": 199,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.831057565998404
+    },
+    {
+      "atom_id_1": 199,
+      "atom_id_2": 200,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8767215962949855
+    },
+    {
+      "atom_id_1": 200,
+      "atom_id_2": 201,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3973744272742363
+    },
+    {
+      "atom_id_1": 201,
+      "atom_id_2": 202,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.453794325205598
+    },
+    {
+      "atom_id_1": 202,
+      "atom_id_2": 203,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4410284313642114
+    },
+    {
+      "atom_id_1": 203,
+      "atom_id_2": 204,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4292192484010282
+    },
+    {
+      "atom_id_1": 204,
+      "atom_id_2": 205,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4766489968845002
+    },
+    {
+      "atom_id_1": 204,
+      "atom_id_2": 206,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.352239897355495
+    },
+    {
+      "atom_id_1": 203,
+      "atom_id_2": 207,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4771278719190155
+    },
+    {
+      "atom_id_1": 12,
+      "atom_id_2": 3,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.662553981078509
+    },
+    {
+      "atom_id_1": 25,
+      "atom_id_2": 13,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3432308811220801
+    },
+    {
+      "atom_id_1": 31,
+      "atom_id_2": 26,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.435679912097401
+    },
+    {
+      "atom_id_1": 37,
+      "atom_id_2": 33,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3895161388051596
+    },
+    {
+      "atom_id_1": 44,
+      "atom_id_2": 39,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4019029709648232
+    },
+    {
+      "atom_id_1": 57,
+      "atom_id_2": 45,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.486677372532454
+    },
+    {
+      "atom_id_1": 63,
+      "atom_id_2": 59,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.399187910896889
+    },
+    {
+      "atom_id_1": 72,
+      "atom_id_2": 67,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4233605340882538
+    },
+    {
+      "atom_id_1": 78,
+      "atom_id_2": 73,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4255190703740164
+    },
+    {
+      "atom_id_1": 87,
+      "atom_id_2": 82,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.420832002736425
+    },
+    {
+      "atom_id_1": 93,
+      "atom_id_2": 89,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.5923529194245853
+    },
+    {
+      "atom_id_1": 100,
+      "atom_id_2": 95,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3754637799665972
+    },
+    {
+      "atom_id_1": 106,
+      "atom_id_2": 102,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8146043893918031
+    },
+    {
+      "atom_id_1": 113,
+      "atom_id_2": 108,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.7961285978459338
+    },
+    {
+      "atom_id_1": 123,
+      "atom_id_2": 114,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.2653276492671766
+    },
+    {
+      "atom_id_1": 129,
+      "atom_id_2": 125,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4136164437357113
+    },
+    {
+      "atom_id_1": 136,
+      "atom_id_2": 131,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3738172913455413
+    },
+    {
+      "atom_id_1": 143,
+      "atom_id_2": 138,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.5172582904700176
+    },
+    {
+      "atom_id_1": 165,
+      "atom_id_2": 145,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.6734736597867326
+    },
+    {
+      "atom_id_1": 175,
+      "atom_id_2": 166,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.5929173424883039
+    },
+    {
+      "atom_id_1": 194,
+      "atom_id_2": 176,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.422267587340723
+    },
+    {
+      "atom_id_1": 205,
+      "atom_id_2": 196,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8934286519433472
+    },
+    {
+      "atom_id_1": 146,
+      "atom_id_2": 4,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.889041074196112
+    },
+    {
+      "atom_id_1": 153,
+      "atom_id_2": 148,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.418492534347643
+    },
+    {
+      "atom_id_1": 165,
+      "atom_id_2": 158,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4273544514240326
+    },
+    {
+      "atom_id_1": 173,
+      "atom_id_2": 168,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4564191772975248
+    },
+    {
+      "atom_id_1": 194,
+      "atom_id_2": 182,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4452114758747248
+    },
+    {
+      "atom_id_1": 205,
+      "atom_id_2": 200,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.8059570897449362
+    },
+    {
+      "atom_id_1": 202,
+      "atom_id_2": 5,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.6732166954701353
+    },
+    {
+      "atom_id_1": 12,
+      "atom_id_2": 7,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3724620723356984
+    },
+    {
+      "atom_id_1": 183,
+      "atom_id_2": 18,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 2.1209525289359967
+    },
+    {
+      "atom_id_1": 192,
+      "atom_id_2": 184,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4361034224595384
+    },
+    {
+      "atom_id_1": 25,
+      "atom_id_2": 20,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4580363952933408
+    },
+    {
+      "atom_id_1": 195,
+      "atom_id_2": 28,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.4318603109242185
+    },
+    {
+      "atom_id_1": 207,
+      "atom_id_2": 46,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5026834829730444
+    },
+    {
+      "atom_id_1": 56,
+      "atom_id_2": 48,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.3656402491139459
+    },
+    {
+      "atom_id_1": 144,
+      "atom_id_2": 90,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.405142594187508
+    },
+    {
+      "atom_id_1": 191,
+      "atom_id_2": 185,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.4931130466244011
+    },
+    {
+      "atom_id_1": 141,
+      "atom_id_2": 54,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.5629108291902005
+    },
+    {
+      "atom_id_1": 206,
+      "atom_id_2": 92,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.3248041779825426
+    },
+    {
+      "atom_id_1": 136,
+      "atom_id_2": 98,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.7949588574672122
+    },
+    {
+      "atom_id_1": 191,
+      "atom_id_2": 105,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.8825301803689627
+    },
+    {
+      "atom_id_1": 143,
+      "atom_id_2": 111,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.6865089741830606
+    },
+    {
+      "atom_id_1": 121,
+      "atom_id_2": 116,
+      "order": 1.5,
+      "aromatic": true,
+      "length_angstrom": 1.2307630925568092
+    },
+    {
+      "atom_id_1": 174,
+      "atom_id_2": 117,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.726585262881622
+    },
+    {
+      "atom_id_1": 1,
+      "atom_id_2": 208,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0947069288170237
+    },
+    {
+      "atom_id_1": 1,
+      "atom_id_2": 209,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0931342689715662
+    },
+    {
+      "atom_id_1": 1,
+      "atom_id_2": 210,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.094801470587248
+    },
+    {
+      "atom_id_1": 2,
+      "atom_id_2": 211,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.097425172847789
+    },
+    {
+      "atom_id_1": 2,
+      "atom_id_2": 212,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0855137309126957
+    },
+    {
+      "atom_id_1": 6,
+      "atom_id_2": 213,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0897444241655936
+    },
+    {
+      "atom_id_1": 8,
+      "atom_id_2": 214,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0914844570583673
+    },
+    {
+      "atom_id_1": 9,
+      "atom_id_2": 215,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0878017144682206
+    },
+    {
+      "atom_id_1": 11,
+      "atom_id_2": 216,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.09285327011452
+    },
+    {
+      "atom_id_1": 17,
+      "atom_id_2": 217,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 0.9800139794921296
+    },
+    {
+      "atom_id_1": 21,
+      "atom_id_2": 218,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0794844788138453
+    },
+    {
+      "atom_id_1": 22,
+      "atom_id_2": 219,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0716468868055378
+    },
+    {
+      "atom_id_1": 23,
+      "atom_id_2": 220,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0824694637725352
+    },
+    {
+      "atom_id_1": 24,
+      "atom_id_2": 221,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0890696258733874
+    },
+    {
+      "atom_id_1": 27,
+      "atom_id_2": 222,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.080184516645189
+    },
+    {
+      "atom_id_1": 30,
+      "atom_id_2": 223,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0894861403432359
+    },
+    {
+      "atom_id_1": 32,
+      "atom_id_2": 224,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0945100319320968
+    },
+    {
+      "atom_id_1": 32,
+      "atom_id_2": 225,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0994230168592976
+    },
+    {
+      "atom_id_1": 34,
+      "atom_id_2": 226,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.083150626644328
+    },
+    {
+      "atom_id_1": 35,
+      "atom_id_2": 227,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.081676735443635
+    },
+    {
+      "atom_id_1": 37,
+      "atom_id_2": 228,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0109977546958258
+    },
+    {
+      "atom_id_1": 40,
+      "atom_id_2": 229,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0866594544750436
+    },
+    {
+      "atom_id_1": 41,
+      "atom_id_2": 230,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.088088939379498
+    },
+    {
+      "atom_id_1": 42,
+      "atom_id_2": 231,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0859305732872613
+    },
+    {
+      "atom_id_1": 44,
+      "atom_id_2": 232,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.088985500362608
+    },
+    {
+      "atom_id_1": 47,
+      "atom_id_2": 233,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0867122664256625
+    },
+    {
+      "atom_id_1": 52,
+      "atom_id_2": 234,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 0.9926481249667474
+    },
+    {
+      "atom_id_1": 53,
+      "atom_id_2": 235,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0849662022385762
+    },
+    {
+      "atom_id_1": 55,
+      "atom_id_2": 236,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0825919868537732
+    },
+    {
+      "atom_id_1": 58,
+      "atom_id_2": 237,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0949298470678386
+    },
+    {
+      "atom_id_1": 58,
+      "atom_id_2": 238,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0963220785882222
+    },
+    {
+      "atom_id_1": 60,
+      "atom_id_2": 239,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.012537431406859
+    },
+    {
+      "atom_id_1": 61,
+      "atom_id_2": 240,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.080827192478058
+    },
+    {
+      "atom_id_1": 64,
+      "atom_id_2": 241,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.1028477501450507
+    },
+    {
+      "atom_id_1": 68,
+      "atom_id_2": 242,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0780028710536906
+    },
+    {
+      "atom_id_1": 69,
+      "atom_id_2": 243,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0869637206457259
+    },
+    {
+      "atom_id_1": 70,
+      "atom_id_2": 244,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0862850086418387
+    },
+    {
+      "atom_id_1": 71,
+      "atom_id_2": 245,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0898225818911997
+    },
+    {
+      "atom_id_1": 74,
+      "atom_id_2": 246,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.089983600794067
+    },
+    {
+      "atom_id_1": 75,
+      "atom_id_2": 247,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0869800090158057
+    },
+    {
+      "atom_id_1": 76,
+      "atom_id_2": 248,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0870243465534704
+    },
+    {
+      "atom_id_1": 77,
+      "atom_id_2": 249,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.087525011206639
+    },
+    {
+      "atom_id_1": 83,
+      "atom_id_2": 250,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0798954856836844
+    },
+    {
+      "atom_id_1": 84,
+      "atom_id_2": 251,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.088377370216783
+    },
+    {
+      "atom_id_1": 85,
+      "atom_id_2": 252,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.07173807434466
+    },
+    {
+      "atom_id_1": 87,
+      "atom_id_2": 253,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0903062184542467
+    },
+    {
+      "atom_id_1": 88,
+      "atom_id_2": 254,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0590968794213305
+    },
+    {
+      "atom_id_1": 88,
+      "atom_id_2": 255,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0902933779492565
+    },
+    {
+      "atom_id_1": 91,
+      "atom_id_2": 256,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.010515952372846
+    },
+    {
+      "atom_id_1": 94,
+      "atom_id_2": 257,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0473230065266397
+    },
+    {
+      "atom_id_1": 94,
+      "atom_id_2": 258,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0724280908294037
+    },
+    {
+      "atom_id_1": 96,
+      "atom_id_2": 259,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0812803937924704
+    },
+    {
+      "atom_id_1": 97,
+      "atom_id_2": 260,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0825437589307887
+    },
+    {
+      "atom_id_1": 100,
+      "atom_id_2": 261,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0821007901300137
+    },
+    {
+      "atom_id_1": 101,
+      "atom_id_2": 262,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0973011983954086
+    },
+    {
+      "atom_id_1": 101,
+      "atom_id_2": 263,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.1005833952954223
+    },
+    {
+      "atom_id_1": 103,
+      "atom_id_2": 264,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0816173445354882
+    },
+    {
+      "atom_id_1": 104,
+      "atom_id_2": 265,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.009456730127646
+    },
+    {
+      "atom_id_1": 107,
+      "atom_id_2": 266,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0609521808262616
+    },
+    {
+      "atom_id_1": 107,
+      "atom_id_2": 267,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0500209283628588
+    },
+    {
+      "atom_id_1": 109,
+      "atom_id_2": 268,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0500185760261578
+    },
+    {
+      "atom_id_1": 110,
+      "atom_id_2": 269,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.128679950207321
+    },
+    {
+      "atom_id_1": 112,
+      "atom_id_2": 270,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0843951355479238
+    },
+    {
+      "atom_id_1": 115,
+      "atom_id_2": 271,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.095285542678255
+    },
+    {
+      "atom_id_1": 119,
+      "atom_id_2": 272,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.080468273481457
+    },
+    {
+      "atom_id_1": 122,
+      "atom_id_2": 273,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0823243922225907
+    },
+    {
+      "atom_id_1": 124,
+      "atom_id_2": 274,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0862132433366842
+    },
+    {
+      "atom_id_1": 124,
+      "atom_id_2": 275,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.1118445844631344
+    },
+    {
+      "atom_id_1": 127,
+      "atom_id_2": 276,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.079825884112805
+    },
+    {
+      "atom_id_1": 130,
+      "atom_id_2": 277,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.101450752417011
+    },
+    {
+      "atom_id_1": 130,
+      "atom_id_2": 278,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0967318997822582
+    },
+    {
+      "atom_id_1": 133,
+      "atom_id_2": 279,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0847838909202139
+    },
+    {
+      "atom_id_1": 134,
+      "atom_id_2": 280,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0755001906090023
+    },
+    {
+      "atom_id_1": 137,
+      "atom_id_2": 281,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.1090633074806866
+    },
+    {
+      "atom_id_1": 137,
+      "atom_id_2": 282,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0830835701828372
+    },
+    {
+      "atom_id_1": 139,
+      "atom_id_2": 283,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0922953996058027
+    },
+    {
+      "atom_id_1": 140,
+      "atom_id_2": 284,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0872486652095743
+    },
+    {
+      "atom_id_1": 144,
+      "atom_id_2": 285,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0856174003763939
+    },
+    {
+      "atom_id_1": 144,
+      "atom_id_2": 286,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0723596877913677
+    },
+    {
+      "atom_id_1": 149,
+      "atom_id_2": 287,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.073743596022812
+    },
+    {
+      "atom_id_1": 151,
+      "atom_id_2": 288,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 0.973887164922097
+    },
+    {
+      "atom_id_1": 152,
+      "atom_id_2": 289,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0119126740979194
+    },
+    {
+      "atom_id_1": 156,
+      "atom_id_2": 290,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 0.9802484021920159
+    },
+    {
+      "atom_id_1": 157,
+      "atom_id_2": 291,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0950020319615852
+    },
+    {
+      "atom_id_1": 159,
+      "atom_id_2": 292,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0929744782015725
+    },
+    {
+      "atom_id_1": 160,
+      "atom_id_2": 293,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.083052916528089
+    },
+    {
+      "atom_id_1": 162,
+      "atom_id_2": 294,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0178792855736871
+    },
+    {
+      "atom_id_1": 162,
+      "atom_id_2": 295,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0233346910957333
+    },
+    {
+      "atom_id_1": 164,
+      "atom_id_2": 296,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 0.9766826352505701
+    },
+    {
+      "atom_id_1": 167,
+      "atom_id_2": 297,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0873053572938922
+    },
+    {
+      "atom_id_1": 169,
+      "atom_id_2": 298,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.088925204042959
+    },
+    {
+      "atom_id_1": 170,
+      "atom_id_2": 299,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0873596829016603
+    },
+    {
+      "atom_id_1": 171,
+      "atom_id_2": 300,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0872675245770933
+    },
+    {
+      "atom_id_1": 172,
+      "atom_id_2": 301,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0886574254557766
+    },
+    {
+      "atom_id_1": 177,
+      "atom_id_2": 302,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0868772193766878
+    },
+    {
+      "atom_id_1": 179,
+      "atom_id_2": 303,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.1029603891346242
+    },
+    {
+      "atom_id_1": 181,
+      "atom_id_2": 304,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0888791760337782
+    },
+    {
+      "atom_id_1": 186,
+      "atom_id_2": 305,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.016264817850151
+    },
+    {
+      "atom_id_1": 189,
+      "atom_id_2": 306,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0328056303099824
+    },
+    {
+      "atom_id_1": 189,
+      "atom_id_2": 307,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0344198954003156
+    },
+    {
+      "atom_id_1": 190,
+      "atom_id_2": 308,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0924711849746878
+    },
+    {
+      "atom_id_1": 190,
+      "atom_id_2": 309,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0927838075301075
+    },
+    {
+      "atom_id_1": 190,
+      "atom_id_2": 310,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0889105564737631
+    },
+    {
+      "atom_id_1": 193,
+      "atom_id_2": 311,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0495491317703995
+    },
+    {
+      "atom_id_1": 197,
+      "atom_id_2": 312,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.08993598894614
+    },
+    {
+      "atom_id_1": 198,
+      "atom_id_2": 313,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0883694317647843
+    },
+    {
+      "atom_id_1": 199,
+      "atom_id_2": 314,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0894939926406204
+    },
+    {
+      "atom_id_1": 201,
+      "atom_id_2": 315,
+      "order": 1.0,
+      "aromatic": false,
+      "length_angstrom": 1.0873902795224903
+    }
+  ]
+}

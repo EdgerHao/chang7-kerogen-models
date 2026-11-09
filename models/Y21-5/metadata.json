@@ -1,0 +1,39 @@
+{
+  "model_id": "Y21-5",
+  "formula": "C184H99N7O17S4",
+  "assigned_Easy_Ro_percent": 1.6,
+  "canonical_smiles": "Cc1cc2c(C=O)c3cc(ccc13)Cc1cccc(c1C=O)-c1cc3c4ccc5c3cc1-c1ccccc1Cc1c3c6nc7c1c1c8c9c%10c%11oc%12c6c(S)c6c%13cc-4c4c(c%14c%15ccc%16c%17c(c(cc%16%14)c%111)Oc1c[nH]c(c1-c1cc%11ccc1Oc1sc(c(c1O)Cc1c-%15cc%14c%15cccc%14c1-c1cc-3cc3c(cc(cc13)C6)-c1c(ccc3c(N)cccc13)O%15)-c1c[nH]c(c1)-c1cc3c(cccc3cc1-c1ccnc(c1)Cc1c(c[nH]c1-4)C%10)-c1cc(cc(S)c1Cc1cc(C(=O)O)c(c3ccc(cc13)-c1ccc-2c(c1)-c1cc(cc(C(=O)O)c1C(=O)O)Cc1[nH]c(cc1O)O%17)-c1c(cc-%11cc1-7)C5)C9)S8(=O)=O)c%13%12",
+  "elements_including_explicit_H": {
+    "C": 184,
+    "H": 99,
+    "N": 7,
+    "O": 17,
+    "S": 4
+  },
+  "atoms_including_H": 311,
+  "heavy_atoms": 212,
+  "bonds": 359,
+  "formal_charge": 0,
+  "molecular_weight_g_mol": 2808.1159999999754,
+  "aromatic_carbon_count": 168,
+  "conformer": {
+    "method": "MMFF94 local minimization; three trials; same graph as canonical SMILES",
+    "selected_energy_kcal_mol": 10149.174852868415,
+    "seed": 20261114,
+    "numerical_minimizer_status": 0,
+    "coordinate_unit": "angstrom",
+    "periodic_cell": null,
+    "bond_length_min_angstrom": 0.9701868840589425,
+    "bond_length_max_angstrom": 2.154578179133911,
+    "CC_bonds_longer_than_1_8_angstrom": 32,
+    "equilibrated_for_MD": false,
+    "stereochemistry": "Unspecified; use topology as constitutional graph"
+  },
+  "files": {
+    "sdf": "models/Y21-5/model.sdf",
+    "mol": "models/Y21-5/model.mol",
+    "smi": "models/Y21-5/model.smi",
+    "xyz": "models/Y21-5/model.xyz",
+    "pdb": "models/Y21-5/model.pdb"
+  }
+}
