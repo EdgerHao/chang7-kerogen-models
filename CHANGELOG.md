@@ -1,5 +1,12 @@
 # Changelog
 
+## Website update (2026-11-09)
+
+- Added a GitHub Pages explorer for all five unchanged v0.1.0 candidates.
+- Added ChimeraX ball-and-stick/skeleton plates, 2-D structures and connection-indexed atlases.
+- Molecular graphs, original coordinates, release tags and simulation-readiness status are unchanged.
+
+
 ## 0.1.0
 
 - Five candidate graphs with authoritative canonical SMILES and SDF.

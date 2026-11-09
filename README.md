@@ -9,6 +9,18 @@ Release: **v0.1.0**. Associated manuscript: *Aliphatic Depletion and Relative
 Aromatic Enrichment in Chang 7 Kerogen during Hydrous Semi-Open Pyrolysis*
 (author review draft; no journal DOI is claimed).
 
+## Interactive visualization
+
+Open the [five-model interactive explorer](https://edgerhao.github.io/chang7-kerogen-models/)
+or the [ChimeraX figures and 2-D structure gallery](https://edgerhao.github.io/chang7-kerogen-models/gallery.html).
+No installation is required. Rotate/zoom the candidates, inspect original SDF atom IDs,
+switch ball-and-stick / skeleton / geometric-surface views, and download the source SDF.
+
+The website uses the unchanged v0.1.0 molecular data. Display transformations,
+hydrogen hiding and molecular surfaces are visualization choices, not new structural
+validation or predictive simulations. Web code is MIT; bundled 3Dmol.js carries its
+own BSD/third-party licenses in docs/vendor/. Figures and model data are CC BY 4.0.
+
 ## Download and use
 
 Download the versioned package from [Releases](https://github.com/EdgerHao/chang7-kerogen-models/releases),
